@@ -1,0 +1,829 @@
+<!-- Archived from: https://shuiyuan.sjtu.edu.cn/t/topic/68942 -->
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta
+            data-topic-id="68942"
+            data-title="夜间校园网开始对B站、抖音、爱奇艺、英雄联盟等娱乐站点进行限制"
+            data-page="9"
+            data-total-pages="22"
+            data-categories="校园网络"
+            data-tags="网络"
+            data-archiver-name="shuiyuan-archiver"
+            data-archiver-version="0.2.0"
+    />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="具体情况
+
+2022年5月25日0点起，夜间使用校园网络时无法打开部分娱乐网站。经测试早晨8点准时恢复（帖子 #118）
+
+已知受影响娱乐网站列表：（欢迎补充）
+
+哔哩哔哩、腾讯视频、爱奇艺、优酷、华数TV、抖音、快手
+Steam商店和聊天、Origin旗下游戏、战网旗下游戏、英雄联盟、崩坏3、Re0等爱奇艺游戏
+
+6月1日新增屏蔽站点：（帖子 #327）
+
+米哈游旗下游戏、4399小游戏、37网游
+芒果TV、西瓜视频
+
+6月9日(?)起b站限制时间延后到2点开始。
+
+9月测试新发现屏蔽站点：
+
+QQ游戏大厅、WeGame旗下游戏、Ubisoft旗下游戏、PlayStation旗下游戏、Nintendo Switch旗下游戏（帖子 #381）、和平精英（帖子
+#380）
+
+12月测试新发现屏蔽站点：
+
+CIBN影视（中国国际广播电视网络台）、CS:GO国际服
+
+未提到的主流网站均已测试，不受影响。
+
+技术细节
+
+
+image
+image1051×536 96.5 KB
+
+IMG_20220525_024311_512x558
+
+
+说阴谋论的麻烦自己nslookup一下交大DNS :sweat_smile:
+
+解决方案
+
+经查原因是学校DNS不返回相关域名查询结果，导致校内网络用户在默认配置下相关网站被屏蔽。推荐手动指定DNS为校外DNS以解决，比
+如这些：
+
+119.29.29.29
+223.5.5.5
+1.2.4.8
+114.114.114.114
+
+（查看自己的DNS：访问 https://www.dnsleaktest.com/ 点击Standard
+Test，如果结果是202.120或202.112开头的，那就说明用的是学校DNS，需要更换才能正常访问娱乐网站）
+
+各平台修改DNS教程：https://wap.521qw.com/archives/157
+
+（安卓可以试一下设置里的私人DNS填 dns.alidns.com 。如果设置里没有就下一个软件来改DNS，百度搜索“安卓改dns软件”即可。
+寝室有线网接路由器的同学，直接修改路由器上的DNS设置更方便。）
+
+如果修改DNS后还没能解决，记得检查IPv6是否也更换了DNS（尤其是电脑和路由器设置的时候要注意，见帖子
+#107）。或者可以直接禁用IPv6功能。推荐一些IPv6 DNS：
+
+2402:4e00::
+2400:3200::1
+2400:3200:baba::1
+2400:da00::6666
+
+当然，使用某些能改IP地址的魔法软件也是可以的，只不过访问境内网站速度可能会变慢，可以配下策略只接管DNS不代理流量。
+
+最后，用手机流量当然也可以绕过此限制，但学校的5G融合网卡的流量也和校内连通，也无法访问娱乐网站（帖子
+71201），所以得靠软件修改DNS了。
+
+更新
+
+“是的。”
+
+ykh:
+
+凌晨在交我办报修了此问题，结果却是直接结束了我的工单。已实锤了
+
+OQA{00IOD}XTD9SV{C$43FH
+
+经测试，5月26日起每日0:01校园DNS返回异常，8:00恢复。
+5月29日凌晨欧冠决赛，上述网站列表中仅B站恢复正常，且在欧冠结束后8点前恢复屏蔽。
+
+其他
+
+仿佛又回到了19级及以前，大一到大三夜间断网的时代。大家早点休息吧 :slightly_smiling_face:
+
+这̶事̶疑̶似̶与̶D̶1̶8̶事̶件̶有̶关̶
+
+所以熬夜学习能砍学分吗 :sob:
+">
+    <title>夜间校园网开始对B站、抖音、爱奇艺、英雄联盟等娱乐站点进行限制 | 第 9 页</title>
+    <link href="resources/desktop_a6ebc8d83f637bb00f4f3fe2bed708de5b2f46cb.css" media="all"
+          rel="stylesheet" data-target="desktop">
+    <link href="resources/desktop_theme_18_6044d2798548d883edb7b504e9678e59bef1ea37.css"
+          media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="18" data-theme-name="discotoc">
+    <link href="resources/desktop_theme_59_0cc413d2f69104e201591ee89508c6059f2237e7.css"
+          media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="59"
+          data-theme-name="discourse-watermark">
+    <link href="resources/desktop_theme_34_b6cc8e9ec8740a61600e8db01d7b9428a3940549.css"
+          media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="34" data-theme-name="pdf previews">
+    <link href="resources/desktop_theme_52_4859297324a16e5bb8c1f9d01f3bf0ffa6a9b29c.css"
+          media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="52" data-theme-name="remove-excerpt">
+    <link href="resources/desktop_theme_58_c33a83ba3ef5ab3b25e5a5619c4161eb0f495dce.css"
+          media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="58"
+          data-theme-name="remove-hidden-gap">
+    <link href="resources/desktop_theme_37_127867e7b59b2a0102d5189a36d24792f6a176f0.css"
+          media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="37"
+          data-theme-name="remove-shield-icon">
+    <link href="resources/desktop_theme_56_ecee7c2e40c9669a25d0f4e842a1b86202e00733.css"
+          media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="56"
+          data-theme-name="remove-solved-text">
+    <link href="resources/desktop_theme_54_e006d487a3f75a32724103e42208dca26c361ac8.css"
+          media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="54" data-theme-name="retort">
+    <link href="resources/desktop_theme_3_8828b367cb8a28b2296c7bfe6f433ad504773044.css"
+          media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="3" data-theme-name="亮">
+    <script src="resources/79ef348eb9f79f287b6c835ff09169b855d710f2.js"></script>
+</head>
+
+<body class="crawler">
+<script src="resources/205da9bd7e50046f118af4e49e6a562905a2ca26.js"></script>
+<script src="resources/dd73fca2e692e339380e847ce439a9e2a083d9bb.js"></script>
+<header>
+    <a href="https://shuiyuan.sjtu.edu.cn/">
+        <img src="resources/f8a88a3a02eaa06e8d2c51ea944df2f7abdc374e.png" alt="水源社区"
+             id="site-logo" style="max-width: 150px;">
+    </a>
+</header>
+<div id="main-outlet" class="wrap">
+    <div id="topic-title">
+        <h1>
+            <a href="index.html">夜间校园网开始对B站、抖音、爱奇艺、英雄联盟等娱乐站点进行限制</a>
+        </h1>
+
+        <div class="topic-category" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+                <span itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+                  <a class="badge-wrapper bullet" itemprop="item">
+                    <span class="badge-category-bg" style="background-color: #FF9800"></span>
+                    <span class="badge-category clear-badge">
+                      <span class="category-name" itemprop="name">校园网络</span>
+                    </span>
+                  </a>
+                </span>
+        </div>
+
+        <div class="topic-category">
+            <div class="discourse-tags list-tags">
+                    <a class="discourse-tag" rel="tag">网络</a>
+            </div>
+        </div>
+    </div>
+
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Beaulah Barrows</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-05-25 13:18:37.697 UTC" class="post-time">
+                    2022年05月25日 21:18
+                </time>
+                        <span itemprop="position">(回复 #168) #180</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>哈哈只是随口一说</p>
+<p>根据域名就得防火墙对每个DNS包检测，不知道学校防火墙有没有g fw那样厉害的功能，以及有没有这么强性能</p>
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                    <span class="post-likes">1 个赞</span>
+                </div>
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Yesenia Ratke</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-05-25 13:56:11.738 UTC" class="post-time">
+                    2022年05月25日 21:56
+                </time>
+                        <span itemprop="position">(回复 #176) #183</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <details>
+<summary>
+</summary>
+<div class="spoiler">
+<p>通讯接口的常用端口号（一个数字）</p>
+</div>
+</details>
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                    <span class="post-likes">1 个赞</span>
+                </div>
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Schuyler Hodkiewicz</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-05-25 14:09:38.237 UTC" class="post-time">
+                    2022年05月25日 22:09
+                </time>
+                        <span itemprop="position">(回复 #166) #185</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>DNS over TLS (853端口)<br>
+DNS over HTTPS (443端口，总不能也屏蔽了吧 <img src="resources/joy_v=12.png" title=":joy:" class="Darian Ullrich" alt=":joy:" loading="lazy" width="20" height="20">)</p>
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                    <span class="post-likes">2 个赞</span>
+                </div>
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Kaela Goldner</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-05-25 14:11:29.053 UTC" class="post-time">
+                    2022年05月25日 22:11
+                </time>
+                        <span itemprop="position">(回复 #176) #186</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <aside class="quote group-g_lic" data-username="Jaclyn Ritchie" data-post="176" data-topic="68942">
+<div class="title">
+<div class="quote-controls"></div>
+ Jaclyn Ritchie:</div>
+<blockquote>
+<p>全交大最擅长水源社区技术</p>
+</blockquote>
+</aside>
+<p>你当水源技术部是吃干饭的吗？<br>
+<span style="color:transparent">我的话确实（</span></p>
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                        <img alt height="20" width="20" src="resources/smiling_face_with_three_hearts.png"/>
+                        <span style="padding-right: 5px">3</span>
+                        <img alt height="20" width="20" src="resources/sob.png"/>
+                        <span style="padding-right: 5px">2</span>
+                </div>
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                    <span class="post-likes">7 个赞</span>
+                </div>
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Lamar Lang</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-05-25 15:14:21.512 UTC" class="post-time">
+                    2022年05月25日 23:14
+                </time>
+                        <span itemprop="position">#187</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>今晚dns会精准断网吗？</p>
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                    <span class="post-likes">3 个赞</span>
+                </div>
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Emmie Stokes</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-05-25 16:02:43.311 UTC" class="post-time">
+                    2022年05月26日 00:02
+                </time>
+                        <span itemprop="position">(回复 #187) #188</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>悲报：断了<br>
+<div class="lightbox-wrapper"><a class="lightbox" href="https://shuiyuan.sjtu.edu.cn/secure-uploads/original/4X/2/3/0/2303c74dd3bad19b4dcfd95f1b92889b61360d70.png" data-download-href="/uploads/short-url/4ZKO1QpHhRfdgXHsfHhgHDoowdG.png?dl=1" title="image"><img src="resources/2303c74dd3bad19b4dcfd95f1b92889b61360d70.png" alt="image" data-base62-sha1="hERP1LPignPHAd2JrTmRmFSBqLU" width="690" height="71" data-dominant-color="161616"><div class="meta">
+<svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">1911×199 13 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg>
+</div></a></div></p>
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                    <span class="post-likes">6 个赞</span>
+                </div>
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Alene Rempel</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-05-25 16:05:00.260 UTC" class="post-time">
+                    2022年05月26日 00:05
+                </time>
+                        <span itemprop="position">#189</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p><div class="lightbox-wrapper"><a class="lightbox" href="https://shuiyuan.sjtu.edu.cn/secure-uploads/original/4X/6/e/4/6e426f6489b440927e945a8bc462185816b16224.jpeg" data-download-href="/uploads/short-url/fJoRdvS5eSRqOtwwDBXnsY8Gu68.jpeg?dl=1" title="Screenshot_20220526_000427_tv.danmaku.bili"><img src="resources/6e426f6489b440927e945a8bc462185816b16224_2_690x1485.jpeg" alt="Screenshot_20220526_000427_tv.danmaku.bili" data-base62-sha1="tbCwnCBfqueE9t9rGl0rYVcpJ3v" width="690" height="1485" srcset="resources/6e426f6489b440927e945a8bc462185816b16224_2_690x1485.jpeg resources/6e426f6489b440927e945a8bc462185816b16224_2_1035x2227.jpeg 1.5x resources/6e426f6489b440927e945a8bc462185816b16224.jpeg 2x resources/6e426f6489b440927e945a8bc462185816b16224.jpeg 2.5x resources/6e426f6489b440927e945a8bc462185816b16224.jpeg 3x" data-dominant-color="F3F2F5"><div class="meta">
+<svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">Screenshot_20220526_000427_tv.danmaku.bili</span><span class="informations">1288×2772 247 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg>
+</div></a></div><br>
+是真的</p>
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                    <span class="post-likes">3 个赞</span>
+                </div>
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Devyn Schowalter</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-05-25 16:05:07.179 UTC" class="post-time">
+                    2022年05月26日 00:05
+                </time>
+                        <span itemprop="position">#190</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>今天又墙了？、、、</p>
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                    <span class="post-likes">1 个赞</span>
+                </div>
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Jaclyn Ritchie</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-05-25 16:05:51.215 UTC" class="post-time">
+                    2022年05月26日 00:05
+                </time>
+                        <span itemprop="position">#191</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <pre><code class="lang-auto">&gt; Resolve-DnsName www.bilibili.com -Server 202.120.2.100 -DnsOnly
+</code></pre>
+<pre><code class="lang-auto">Resolve-DnsName : www.bilibili.com : DNS 名称不存在。
+所在位置 行:1 字符: 1
++ Resolve-DnsName www.bilibili.com -Server 202.120.2.100 -DnsOnly
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ResourceUnavailable: (www.bilibili.com:String) [Resolve-DnsName], Win32Exception
+    + FullyQualifiedErrorId : DNS_ERROR_RCODE_NAME_ERROR,Microsoft.DnsClient.Commands.ResolveDnsName
+</code></pre>
+<p>但是114.114.114.114是正常的</p>
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                    <span class="post-likes">4 个赞</span>
+                </div>
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Donnell Langosh</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-05-25 16:06:31.638 UTC" class="post-time">
+                    2022年05月26日 00:06
+                </time>
+                        <span itemprop="position">#192</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>断了，我在看番，看没几分钟直接断了，b站刷新不出来，被墙应该是真的了</p>
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                    <span class="post-likes">1 个赞</span>
+                </div>
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Johathan Aufderhar</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-05-25 16:06:39.682 UTC" class="post-time">
+                    2022年05月26日 00:06
+                </time>
+                        <span itemprop="position">#194</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>感觉和昨天还不太一样<br>
+<div class="lightbox-wrapper"><a class="lightbox" href="https://shuiyuan.sjtu.edu.cn/secure-uploads/original/4X/2/f/f/2ff919192d8441e00ec11160937922c8d9a86721.png" data-download-href="/uploads/short-url/6Qo88kXG7oUF3NQXDdca05lGtCp.png?dl=1" title="image"><img src="resources/2ff919192d8441e00ec11160937922c8d9a86721_2_690x337.png" alt="image" data-base62-sha1="7Jn4RdGg8kNcHZSe3cPin29CMEk" width="690" height="337" srcset="resources/2ff919192d8441e00ec11160937922c8d9a86721_2_690x337.png resources/2ff919192d8441e00ec11160937922c8d9a86721_2_1035x505.png 1.5x resources/2ff919192d8441e00ec11160937922c8d9a86721_2_1380x674.png 2x resources/2ff919192d8441e00ec11160937922c8d9a86721_2_1725x842.png 2.5x resources/2ff919192d8441e00ec11160937922c8d9a86721.png 3x" data-dominant-color="E9EAEA"><div class="meta">
+<svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">1920×938 32.4 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg>
+</div></a></div></p>
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                    <span class="post-likes">2 个赞</span>
+                </div>
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Donnell Langosh</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-05-25 16:06:47.541 UTC" class="post-time">
+                    2022年05月26日 00:06
+                </time>
+                        <span itemprop="position">(回复 #192) #195</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>就刚刚的事<br>
+（我对不起我的昵称，我有罪，我忏悔）</p>
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                    <span class="post-likes">1 个赞</span>
+                </div>
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Candace Frami</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-05-25 16:07:03.725 UTC" class="post-time">
+                    2022年05月26日 00:07
+                </time>
+                        <span itemprop="position">#196</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>5/26 0:04，零点前在B站进在直播间一直不出来度过了24:00，可以继续观看，点了别的主播也进去了</p>
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                    <span class="post-likes">1 个赞</span>
+                </div>
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Brennan Jast</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-05-25 16:07:07.160 UTC" class="post-time">
+                    2022年05月26日 00:07
+                </time>
+                        <span itemprop="position">(回复 #164) #197</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>我当时确实不知道实验楼和研究生不断网啊，只是看到前面有人模模糊糊地说“20年以前的前半夜断网”，就觉得实验室和研究生宿舍晚上断网不大合理，后来也有同学说以前是大一到大三才断网，今天问了一下我师兄也是这样的。<br>
+昨天我不清楚情况，所以就提了几点全面断网的不合理之处，不知道怎么就成你口中的“想着搞大新闻”了。<br>
+不过你讲的历史倒是比我师兄说的更详细一些，我本科成电的，10月到5月的工作日晚上也会断电，不过仅限于本科生。<br>
+我就觉得研究生宿舍和实验楼不可能断网的。</p>
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                    <span class="post-likes">1 个赞</span>
+                </div>
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Candace Frami</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-05-25 16:08:05.601 UTC" class="post-time">
+                    2022年05月26日 00:08
+                </time>
+                        <span itemprop="position">(回复 #196) #199</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>补充：这是Lizeth Erdman端。我的手机端无法进入直播间</p>
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                    <span class="post-likes">1 个赞</span>
+                </div>
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Lafayette Roob</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-05-25 16:08:15.691 UTC" class="post-time">
+                    2022年05月26日 00:08
+                </time>
+                        <span itemprop="position">#200</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>用DoH啊</p>
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                    <span class="post-likes">1 个赞</span>
+                </div>
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Donnell Langosh</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-05-25 16:09:14.859 UTC" class="post-time">
+                    2022年05月26日 00:09
+                </time>
+                        <span itemprop="position">(回复 #198) #201</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>好了，wxb的人看到就把这几个加到黑名单里了 <img src="resources/zipper_mouth_face_v=12.png" title=":zipper_mouth_face:" class="Darian Ullrich" alt=":zipper_mouth_face:" loading="lazy" width="20" height="20"></p>
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                    <span class="post-likes">6 个赞</span>
+                </div>
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Price Yost</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-05-25 16:09:19.589 UTC" class="post-time">
+                    2022年05月26日 00:09
+                </time>
+                        <span itemprop="position">#202</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>所以不让熬夜的话，能把课程、学分减少一点吗……也不是大家都因为娱乐熬夜吧 <img src="resources/drooling_face_v=12.png" title=":drooling_face:" class="Darian Ullrich" alt=":drooling_face:" loading="lazy" width="20" height="20"></p>
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                    <span class="post-likes">8 个赞</span>
+                </div>
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Jake Denesik</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-05-25 16:10:04.183 UTC" class="post-time">
+                    2022年05月26日 00:10
+                </time>
+                        <span itemprop="position">(回复 #202) #203</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>学在交大<img src="resources/hugs_v=12.png" title=":hugs:" class="Darian Ullrich" alt=":hugs:" loading="lazy" width="20" height="20"></p>
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                    <span class="post-likes">1 个赞</span>
+                </div>
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Jaclyn Ritchie</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-05-25 16:10:39.674 UTC" class="post-time">
+                    2022年05月26日 00:10
+                </time>
+                        <span itemprop="position">(回复 #201) #204</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>一个个都试试 <img src="resources/innocent_v=12.png" title=":innocent:" class="Darian Ullrich" alt=":innocent:" loading="lazy" width="20" height="20"></p>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="https://shuiyuan.sjtu.edu.cn/secure-uploads/original/4X/0/6/a/06a5dfa8f4021f7d49d9b6d5cfbdb23289318825.jpeg" data-download-href="/uploads/short-url/WOflufiq6ctmrlFDHVNaDa38Xj.jpeg?dl=1" title="image"><img src="resources/06a5dfa8f4021f7d49d9b6d5cfbdb23289318825_2_690x542.jpeg" alt="image" data-base62-sha1="e9YZquYO3XUqdoc5NuSqFmqi6nh" width="690" height="542" srcset="resources/06a5dfa8f4021f7d49d9b6d5cfbdb23289318825_2_690x542.jpeg resources/06a5dfa8f4021f7d49d9b6d5cfbdb23289318825_2_1035x813.jpeg 1.5x resources/06a5dfa8f4021f7d49d9b6d5cfbdb23289318825.jpeg 2x resources/06a5dfa8f4021f7d49d9b6d5cfbdb23289318825.jpeg 2.5x resources/06a5dfa8f4021f7d49d9b6d5cfbdb23289318825.jpeg 3x" data-dominant-color="CFDEEE"><div class="meta">
+<svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">1095×861 284 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg>
+</div></a></div></p>
+<p>测试列表<br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 优酷 <a href="http://www.youku.com/" rel="noopener nofollow ugc">http://www.youku.com/</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 哔哩哔哩 <a href="https://www.bilibili.com/" rel="noopener nofollow ugc">https://www.bilibili.com/</a><br>
+<span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> 微博视频 <a href="https://weibo.com/tv" class="inline-onebox" rel="noopener nofollow ugc">Sina Visitor System</a><br>
+<span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> 搜狗视频 <a href="https://v.sogou.com/" rel="noopener nofollow ugc">https://v.sogou.com/</a><br>
+<span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> 酷燃视频 <a href="https://krcom.cn/" rel="noopener nofollow ugc">https://krcom.cn/</a><br>
+<span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> CCTV点播 <a href="https://tv.cctv.com/lm/" class="inline-onebox" rel="noopener nofollow ugc">栏目大全_CCTV节目官网_央视网</a><br>
+<span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> 新片场 <a href="https://www.vmovier.com/" rel="noopener nofollow ugc">https://www.vmovier.com/</a><br>
+<span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> 美拍 <a href="https://www.meipai.com/" rel="noopener nofollow ugc">https://www.meipai.com/</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 优酷电影 <a href="http://movie.youku.com/" rel="noopener nofollow ugc">http://movie.youku.com/</a><br>
+<span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> 芒果TV电影频道 <a href="https://www.mgtv.com/movie/" class="inline-onebox" rel="noopener nofollow ugc">芒果TV-天生青春</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 华数TV--电影 <a href="https://movie.wasu.cn/" rel="noopener nofollow ugc">https://movie.wasu.cn/</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 优酷电视剧 <a href="http://tv.youku.com/" rel="noopener nofollow ugc">http://tv.youku.com/</a><br>
+<span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> 百度视频--电视剧 <a href="http://v.baidu.com/tvplayindex/" rel="noopener nofollow ugc">http://v.baidu.com/tvplayindex/</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 华数TV--电视剧 <a href="https://dianshiju.wasu.cn/" rel="noopener nofollow ugc">https://dianshiju.wasu.cn/</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 优酷综艺频道 <a href="http://zy.youku.com/" rel="noopener nofollow ugc">http://zy.youku.com/</a><br>
+<span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> 百度视频--综艺节目 <a href="http://video.baidu.com/tamashaindex/" rel="noopener nofollow ugc">http://video.baidu.com/tamashaindex/</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 华数TV--综艺 <a href="https://itv.wasu.cn/" rel="noopener nofollow ugc">https://itv.wasu.cn/</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 芒果TV--综艺 <a href="https://www.mgtv.com/show/" class="inline-onebox" rel="noopener nofollow ugc">芒果TV-天生青春</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 优酷动漫 <a href="http://comic.youku.com/" rel="noopener nofollow ugc">http://comic.youku.com/</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 芒果TV--动漫 <a href="https://www.mgtv.com/cartoon/" class="inline-onebox" rel="noopener nofollow ugc">芒果TV-天生青春</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 华数TV--动漫 <a href="https://dongman.wasu.cn/" rel="noopener nofollow ugc">https://dongman.wasu.cn/</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 爱奇艺 <a href="http://www.iqiyi.com/" rel="noopener nofollow ugc">http://www.iqiyi.com/</a><br>
+<span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> 土豆网 <a href="http://www.tudou.com/" rel="noopener nofollow ugc">http://www.tudou.com/</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 腾讯视频 <a href="http://v.qq.com/" rel="noopener nofollow ugc">http://v.qq.com/</a><br>
+<span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> 搜狐视频 <a href="http://tv.sohu.com/" rel="noopener nofollow ugc">http://tv.sohu.com/</a><br>
+<span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> 百度视频 <a href="http://v.baidu.com/" rel="noopener nofollow ugc">http://v.baidu.com/</a><br>
+<span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> 梨视频 <a href="https://www.pearvideo.com/" rel="noopener nofollow ugc">https://www.pearvideo.com/</a><br>
+<span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> 风行网 <a href="http://www.fun.tv/" rel="noopener nofollow ugc">http://www.fun.tv/</a><br>
+<span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> 好看视频 <a href="https://haokan.baidu.com/" rel="noopener nofollow ugc">https://haokan.baidu.com/</a><br>
+<span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> PP视频 <a href="http://www.pptv.com/" rel="noopener nofollow ugc">http://www.pptv.com/</a><br>
+<span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> 凤凰视频 <a href="http://v.ifeng.com/" rel="noopener nofollow ugc">http://v.ifeng.com/</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 华数TV <a href="http://www.wasu.cn/" rel="noopener nofollow ugc">http://www.wasu.cn/</a><br>
+<span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> 网易公开课 <a href="http://open.163.com/" rel="noopener nofollow ugc">http://open.163.com/</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 第一视频 <a href="http://www.v1.cn/" rel="noopener nofollow ugc">http://www.v1.cn/</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 51LIVE直播 <a href="http://www.51live.com/" rel="noopener nofollow ugc">http://www.51live.com/</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 播视网 <a href="http://www.boosj.com/" rel="noopener nofollow ugc">http://www.boosj.com/</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 环球网视频 <a href="http://v.huanqiu.com/" rel="noopener nofollow ugc">http://v.huanqiu.com/</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 新华视频 <a href="http://www.news.cn/video/" class="inline-onebox" rel="noopener nofollow ugc">视频_新华网</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 城视网 <a href="http://www.cutv.com/" rel="noopener nofollow ugc">http://www.cutv.com/</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 硕鼠视频下载 <a href="http://www.flvcd.com/" rel="noopener nofollow ugc">http://www.flvcd.com/</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 海龙视频 <a href="http://www.lontv.cn/" rel="noopener nofollow ugc">http://www.lontv.cn/</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 腾讯视频--电影 <a href="http://v.qq.com/movie/" class="inline-onebox" rel="noopener nofollow ugc">电影频道-经典高分电影大全-正版高清电影在线观看-腾讯视频</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 搜狗电影 <a href="http://v.sogou.com/channel/movie" class="inline-onebox" rel="noopener nofollow ugc">2020热播电影排行榜-20年更新电影排行榜-搜狗视频</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 乐视网--电影 <a href="http://movie.le.com/" rel="noopener nofollow ugc">http://movie.le.com/</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 搜狐视频--电影 <a href="http://tv.sohu.com/movie/" class="inline-onebox" rel="noopener nofollow ugc">搜狐电影频道 - 搜狐视频</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 风行网--电影 <a href="http://www.fun.tv/movie" class="inline-onebox" rel="noopener nofollow ugc">风行电影频道 - 在线观看 - 高清下载 - 风行网</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 爱奇艺--电视剧 <a href="http://www.iqiyi.com/dianshiju/" class="inline-onebox" rel="noopener nofollow ugc">电视剧频道-好看的电视剧大全-热门电视剧排行榜-爱奇艺</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 芒果TV--电视剧 <a href="https://www.mgtv.com/tv/" class="inline-onebox" rel="noopener nofollow ugc">芒果TV-天生青春</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 搜狐视频--电视剧 <a href="http://tv.sohu.com/teleplay/" rel="noopener nofollow ugc">http://tv.sohu.com/teleplay/</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> CCTV8电视剧频道 <a href="http://tv.cctv.com/cctv8/" class="inline-onebox" rel="noopener nofollow ugc">CCTV-8电视剧频道节目官网_CCTV节目官网_央视网</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 乐视网--电视剧 <a href="http://tv.le.com/" rel="noopener nofollow ugc">http://tv.le.com/</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 爱奇艺综艺 <a href="http://www.iqiyi.com/zongyi/" class="inline-onebox" rel="noopener nofollow ugc">综艺频道-综艺大热门-综艺节目大全-爱奇艺</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 56网综艺频道 <a href="http://www.56.com/show" class="inline-onebox" rel="noopener nofollow ugc">56网综艺频道-56视频.</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 乐视网--综艺 <a href="http://zongyi.le.com/" rel="noopener nofollow ugc">http://zongyi.le.com/</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 风行综艺频道 <a href="http://www.fun.tv/variety/" class="inline-onebox" rel="noopener nofollow ugc">综艺频道 - 综艺节目 - 在线观看 - 高清下载 - 风行网</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 爱奇艺动漫 <a href="http://www.iqiyi.com/dongman/" class="inline-onebox" rel="noopener nofollow ugc">动漫频道-动画片大全-动画电影-高清正版动漫视频-爱奇艺</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 搜狐动漫频道 <a href="http://tv.sohu.com/comic/" class="inline-onebox" rel="noopener nofollow ugc">搜狐动漫频道 - 搜狐视频</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 搜狗动漫 <a href="http://v.sogou.com/top/dongman/" class="inline-onebox" rel="noopener nofollow ugc">搜狗视频 - 上网从搜狗开始</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 风行网--动漫 <a href="http://www.fun.tv/cartoon" class="inline-onebox" rel="noopener nofollow ugc">动漫频道 - 动画片 - 动漫大全 - 在线观看 - 高清下载 - 风行网</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> PP视频--动漫 <a href="http://cartoon.pptv.com/" rel="noopener nofollow ugc">http://cartoon.pptv.com/</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 六间房 <a href="http://www.6.cn/" rel="noopener nofollow ugc">http://www.6.cn/</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 抖音 <a href="http://www.douyin.com/" rel="noopener nofollow ugc">http://www.douyin.com/</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 芒果TV <a href="http://www.mgtv.com/" rel="noopener nofollow ugc">http://www.mgtv.com/</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 快手短视频 <a href="http://www.kuaishou.com/" rel="noopener nofollow ugc">http://www.kuaishou.com/</a><br>
+<span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> 西瓜视频 <a href="http://www.ixigua.com/" rel="noopener nofollow ugc">http://www.ixigua.com/</a><br>
+<span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> AcFun弹幕视频网 <a href="http://www.acfun.cn/" rel="noopener nofollow ugc">http://www.acfun.cn/</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 激动网 <a href="http://www.joy.cn/" rel="noopener nofollow ugc">http://www.joy.cn/</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 网易直播 <a href="http://v.163.com/" rel="noopener nofollow ugc">http://v.163.com/</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 皮皮网 <a href="http://www.pipi.cn/" rel="noopener nofollow ugc">http://www.pipi.cn/</a><br>
+<span class="chcklst-box checked fa fa-check-square-o fa-fw"></span> 咪咕视频 <a href="http://www.miguvideo.com/" rel="noopener nofollow ugc">http://www.miguvideo.com/</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 百度视频--电影 <a href="http://v.baidu.com/movie" rel="noopener nofollow ugc">http://v.baidu.com/movie</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 1905电影网 <a href="http://vip.1905.com/" rel="noopener nofollow ugc">http://vip.1905.com/</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> PP视频--电影 <a href="http://movie.pptv.com/" rel="noopener nofollow ugc">http://movie.pptv.com/</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> PP电视剧 <a href="http://tv.pptv.com/" rel="noopener nofollow ugc">http://tv.pptv.com/</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 搜狗影视--电视剧 <a href="http://v.sogou.com/channel/teleplay" class="inline-onebox" rel="noopener nofollow ugc">2020热播电视剧排行榜-20年更新电视剧排行榜-搜狗视频</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 搜狐综艺频道 <a href="http://tv.sohu.com/show/" class="inline-onebox" rel="noopener nofollow ugc">搜狐综艺频道 - 搜狐视频</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 腾讯视频--综艺 <a href="http://v.qq.com/variety/" class="inline-onebox" rel="noopener nofollow ugc">综艺频道-综艺大热播-高清综艺大放送-腾讯视频</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 百度视频--动漫 <a href="http://video.baidu.com/cartoonindex/" rel="noopener nofollow ugc">http://video.baidu.com/cartoonindex/</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 腾讯视频--动漫 <a href="https://v.qq.com/x/channel/cartoon" class="inline-onebox" rel="noopener nofollow ugc">动漫频道-热血国漫大全-正版热门动漫放送-腾讯视频</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 乐视网 <a href="http://www.le.com/" rel="noopener nofollow ugc">http://www.le.com/</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 搜库视频搜索 <a href="http://www.soku.com/" rel="noopener nofollow ugc">http://www.soku.com/</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 新浪视频 <a href="http://video.sina.com.cn/" rel="noopener nofollow ugc">http://video.sina.com.cn/</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> CCTV直播 <a href="http://tv.cctv.com/live/" class="inline-onebox" rel="noopener nofollow ugc">直播大全_CCTV节目官网_央视网</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 人民视频 <a href="http://tv.people.com.cn/" rel="noopener nofollow ugc">http://tv.people.com.cn/</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 56电影 <a href="http://www.56.com/movie" class="inline-onebox" rel="noopener nofollow ugc">56电影-分享全球最新电影资讯，实时展播精彩影片。</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 腾讯视频--电视剧 <a href="http://v.qq.com/tv/index.html" class="inline-onebox" rel="noopener nofollow ugc">电视剧频道-好看电视剧大全-热门电视剧排行榜-腾讯视频</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 风行网--电视剧 <a href="http://www.fun.tv/tv" class="inline-onebox" rel="noopener nofollow ugc">电视剧频道 - 最新电视剧 - 全集在线观看 - 高清下载 - 风行网</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> PP视频--综艺 <a href="http://zongyi.pptv.com/" rel="noopener nofollow ugc">http://zongyi.pptv.com/</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 淘米动漫 <a href="http://v.61.com/" rel="noopener nofollow ugc">http://v.61.com/</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 56视频 <a href="http://www.56.com/" rel="noopener nofollow ugc">http://www.56.com/</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> CCTV <a href="http://tv.cctv.com/" rel="noopener nofollow ugc">http://tv.cctv.com/</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 爱奇艺电影 <a href="http://www.iqiyi.com/dianying/" class="inline-onebox" rel="noopener nofollow ugc">电影频道-热门好看的电影大全-正版高清电影在线观看-爱奇艺</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 56网电视剧 <a href="http://www.56.com/tv" class="inline-onebox" rel="noopener nofollow ugc">56网电视剧频道-56视频.</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 乐视动漫 <a href="http://comic.le.com/" rel="noopener nofollow ugc">http://comic.le.com/</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 酷6网 <a href="http://www.ku6.com/" rel="noopener nofollow ugc">http://www.ku6.com/</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> CCTV-6电影频道 <a href="http://tv.cctv.com/cctv6/" class="inline-onebox" rel="noopener nofollow ugc">CCTV-6电影频道节目官网_CCTV节目官网_央视网</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 爆米花网 <a href="http://www.baomihua.com/" rel="noopener nofollow ugc">http://www.baomihua.com/</a><br>
+<span class="chcklst-box fa fa-square-o fa-fw"></span> 搜狗视频--综艺 <a href="http://v.sogou.com/channel/tvshow" class="inline-onebox" rel="noopener nofollow ugc">2020热播电视节目排行榜-20年更新电视节目排行榜-搜狗视频</a></p>
+<p>后面懒得测了，显然黑名单内容太少了</p>
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                    <span class="post-likes">14 个赞</span>
+                </div>
+
+        </div>
+    <div role="navigation" itemscope="" itemtype="http://schema.org/SiteNavigationElement"
+         class="topic-body crawler-post">
+            <span itemprop="name"><a rel="prev" itemprop="url" href="8.html">← 上一页</a></span>
+            <span itemprop="name"><b><a rel="next" itemprop="url" href="10.html">下一页 →</a></b></span>
+    </div>
+</div>
+<footer class="container wrap">
+    <p class="powered-by-link">由 <a href="https://www.discourse.org/">Discourse</a> 提供技术支持</p>
+</footer>
+<div style="text-align: center;">©2023 上海交通大学</div>
+<br>
+</body>
+</html>

@@ -1,0 +1,477 @@
+<!-- Archived from: https://shuiyuan.sjtu.edu.cn/t/topic/156118 -->
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta
+            data-topic-id="156118"
+            data-title="投喂可爱思源码支付🤗"
+            data-page="1"
+            data-total-pages="1"
+            data-categories="校园网络"
+            data-tags=""
+            data-archiver-name="shuiyuan-archiver"
+            data-archiver-version="0.2.0"
+    />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="前情提要
+
+lz昨天晚上吃晚饭的时候习惯性刷了思源码，但是关联的卡里没钱了，显示支付失败。lz当时也没在意，为了不挡住队伍，就掏出饭卡刷
+了，然后吃饭的时候从余额宝转了点钱到卡里以充饭资。本来以为这就结束了。没想到今天中午去吃饭的时候，刷了一下思源码还是显示
+支付失败，为了不影响队伍，lz又刷了饭卡。然后坐下来吃饭的时候才反应过来不对劲，明明卡里有钱，为什么显示支付失败呢？遂打开
+思源码一看，原来是有笔支付失败的交易未处理，必须先把那笔款项付了才能继续使用。于是冤大头lz又付了昨天晚饭的钱:tired_face:
+
+所以理性分析一下这个支付系统是不是设置得不太合理。以昨天晚饭为例，正常人看到支付失败一般会有两种反应：1.换个支付方式，比
+如刷饭卡或者请人代付2.取消交易（不好意思，阿姨，这份饭我不要了）。而且阿姨看到支付失败肯定不会让你把饭拿走。于是，无论选
+择哪种方式，你都会多支付一份饭钱。要想不多付，除非当着阿姨的面，现场向关联的银行卡里面充钱，然后把那个支付失败的订单处理
+了，但是这个方式很花时间，在饭点的食堂这么操作可能会被后面排队的同学抱怨。所以问题来了：为什么显示支付失败了还一定要我补
+上这笔钱啊:sweat_smile:你怎么知道我最后是不要了还是换了个支付方式啊:sweat_smile:
+">
+    <title>投喂可爱思源码支付🤗 | 第 1 页</title>
+    <link href="resources/desktop_a6ebc8d83f637bb00f4f3fe2bed708de5b2f46cb.css" media="all"
+          rel="stylesheet" data-target="desktop">
+    <link href="resources/desktop_theme_18_6044d2798548d883edb7b504e9678e59bef1ea37.css"
+          media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="18" data-theme-name="discotoc">
+    <link href="resources/desktop_theme_59_0cc413d2f69104e201591ee89508c6059f2237e7.css"
+          media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="59"
+          data-theme-name="discourse-watermark">
+    <link href="resources/desktop_theme_34_b6cc8e9ec8740a61600e8db01d7b9428a3940549.css"
+          media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="34" data-theme-name="pdf previews">
+    <link href="resources/desktop_theme_52_4859297324a16e5bb8c1f9d01f3bf0ffa6a9b29c.css"
+          media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="52" data-theme-name="remove-excerpt">
+    <link href="resources/desktop_theme_58_c33a83ba3ef5ab3b25e5a5619c4161eb0f495dce.css"
+          media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="58"
+          data-theme-name="remove-hidden-gap">
+    <link href="resources/desktop_theme_37_127867e7b59b2a0102d5189a36d24792f6a176f0.css"
+          media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="37"
+          data-theme-name="remove-shield-icon">
+    <link href="resources/desktop_theme_56_ecee7c2e40c9669a25d0f4e842a1b86202e00733.css"
+          media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="56"
+          data-theme-name="remove-solved-text">
+    <link href="resources/desktop_theme_54_e006d487a3f75a32724103e42208dca26c361ac8.css"
+          media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="54" data-theme-name="retort">
+    <link href="resources/desktop_theme_3_8828b367cb8a28b2296c7bfe6f433ad504773044.css"
+          media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="3" data-theme-name="亮">
+    <script src="resources/79ef348eb9f79f287b6c835ff09169b855d710f2.js"></script>
+</head>
+
+<body class="crawler">
+<script src="resources/205da9bd7e50046f118af4e49e6a562905a2ca26.js"></script>
+<script src="resources/dd73fca2e692e339380e847ce439a9e2a083d9bb.js"></script>
+<header>
+    <a href="https://shuiyuan.sjtu.edu.cn/">
+        <img src="resources/f8a88a3a02eaa06e8d2c51ea944df2f7abdc374e.png" alt="水源社区"
+             id="site-logo" style="max-width: 150px;">
+    </a>
+</header>
+<div id="main-outlet" class="wrap">
+    <div id="topic-title">
+        <h1>
+            <a href="index.html">投喂可爱思源码支付🤗</a>
+        </h1>
+
+        <div class="topic-category" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+                <span itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+                  <a class="badge-wrapper bullet" itemprop="item">
+                    <span class="badge-category-bg" style="background-color: #FF9800"></span>
+                    <span class="badge-category clear-badge">
+                      <span class="category-name" itemprop="name">校园网络</span>
+                    </span>
+                  </a>
+                </span>
+        </div>
+
+        <div class="topic-category">
+            <div class="discourse-tags list-tags">
+            </div>
+        </div>
+    </div>
+
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Ashleigh Kiehn</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2023-04-27 04:17:49.137 UTC" class="post-time">
+                    2023年04月27日 12:17
+                </time>
+                        <span itemprop="position">#1</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <details>
+<summary>
+前情提要</summary>
+<p>lz昨天晚上吃晚饭的时候习惯性刷了思源码，但是关联的卡里没钱了，显示支付失败。lz当时也没在意，为了不挡住队伍，就掏出饭卡刷了，然后吃饭的时候从余额宝转了点钱到卡里以充饭资。本来以为这就结束了。没想到今天中午去吃饭的时候，刷了一下思源码还是显示支付失败，为了不影响队伍，lz又刷了饭卡。然后坐下来吃饭的时候才反应过来不对劲，明明卡里有钱，为什么显示支付失败呢？遂打开思源码一看，原来是有笔支付失败的交易未处理，必须先把那笔款项付了才能继续使用。于是冤大头lz又付了昨天晚饭的钱<img src="resources/tired_face_v=12.png" title=":tired_face:" class="emoji" alt=":tired_face:" loading="lazy" width="20" height="20"></p>
+</details>
+<p>所以理性分析一下这个支付系统是不是设置得不太合理。以昨天晚饭为例，正常人看到支付失败一般会有两种反应：1.换个支付方式，比如刷饭卡或者请人代付2.取消交易（不好意思，阿姨，这份饭我不要了）。而且阿姨看到支付失败肯定不会让你把饭拿走。于是，无论选择哪种方式，你都会多支付一份饭钱。要想不多付，除非当着阿姨的面，现场向关联的银行卡里面充钱，然后把那个支付失败的订单处理了，但是这个方式很花时间，在饭点的食堂这么操作可能会被后面排队的同学抱怨。所以问题来了：为什么显示支付失败了还一定要我补上这笔钱啊<img src="resources/sweat_smile_v=12.png" title=":sweat_smile:" class="emoji" alt=":sweat_smile:" loading="lazy" width="20" height="20">你怎么知道我最后是不要了还是换了个支付方式啊<img src="resources/sweat_smile_v=12.png" title=":sweat_smile:" class="emoji" alt=":sweat_smile:" loading="lazy" width="20" height="20"></p>
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                    <span class="post-likes">8 个赞</span>
+                </div>
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Nathan Hegmann</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2023-04-27 04:19:14.736 UTC" class="post-time">
+                    2023年04月27日 12:19
+                </time>
+                        <span itemprop="position">#2</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>有没有可能 昨天晚上支付失败是因为你之前有一顿饭没付 所以你这次付的估计不是昨天的而是更早之前的一顿饭</p>
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                        <img alt height="20" width="20" src="resources/white_check_mark.png"/>
+                        <span style="padding-right: 5px">24</span>
+                </div>
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                    <span class="post-likes">11 个赞</span>
+                </div>
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Ashleigh Kiehn</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2023-04-27 04:24:01.686 UTC" class="post-time">
+                    2023年04月27日 12:24
+                </time>
+                        <span itemprop="position">(回复 #2) #4</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>这是第一次显示支付失败，所以我印象很深刻。而且如果之前有订单没有支付，那之后就不能再用思源码支付了。</p>
+            </div>
+
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Ashleigh Kiehn</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2023-04-27 04:26:31.798 UTC" class="post-time">
+                    2023年04月27日 12:26
+                </time>
+                        <span itemprop="position">(回复 #3) #5</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>首先，显示支付失败之后阿姨不会把饭给我，也就是说我没有得到服务，但是系统里面已经生成了一笔强制我支付的账单，我不支付就不能再用思源码了，相当于我没有得到服务却要支付费用。而且我换一个支付方式也是要显示支付成功，阿姨才会把饭给我，所谓白嫖是不可能的。</p>
+            </div>
+
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Oscar Beahan</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2023-04-27 04:26:58.556 UTC" class="post-time">
+                    2023年04月27日 12:26
+                </time>
+                        <span itemprop="position">(回复 #4) #6</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>第一笔没钱的不会支付失败，只会让你之后补上</p>
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                        <img alt height="20" width="20" src="resources/white_check_mark.png"/>
+                        <span style="padding-right: 5px">11</span>
+                </div>
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                    <span class="post-likes">2 个赞</span>
+                </div>
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Della Balistreri</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2023-04-27 04:28:01.823 UTC" class="post-time">
+                    2023年04月27日 12:28
+                </time>
+                        <span itemprop="position">#7</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>有没有可能，第一次支付失败之前已经有一次钱不够了</p>
+            </div>
+
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Ashleigh Kiehn</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2023-04-27 04:32:21.266 UTC" class="post-time">
+                    2023年04月27日 12:32
+                </time>
+                        <span itemprop="position">(回复 #6) #10</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>可是支付失败的账单金额恰好是我昨天晚饭的金额，我查了一下消费记录，同样金额的消费记录最近一次是去年十月份，感觉不太可能<img src="resources/thinking_v=12.png" title=":thinking:" class="emoji" alt=":thinking:" loading="lazy" width="20" height="20"></p>
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                    <span class="post-likes">1 个赞</span>
+                </div>
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Tyrel Marquardt</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2023-04-27 04:35:22.851 UTC" class="post-time">
+                    2023年04月27日 12:35
+                </time>
+                        <span itemprop="position">(回复 #10) #11</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>你發出來大家不就信了</p>
+            </div>
+
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Ashleigh Kiehn</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2023-04-27 04:39:34.437 UTC" class="post-time">
+                    2023年04月27日 12:39
+                </time>
+                        <span itemprop="position">(回复 #11) #12</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <details>
+<summary>
+昨天晚饭19元，拿饭卡刷的</summary>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="https://shuiyuan.sjtu.edu.cn/secure-uploads/original/4X/f/8/2/f82ea17b5088675442bc125cfe3dcc6c951d02a6.png" data-download-href="/uploads/short-url/zpwjKYQLoejA3ZOdQJayE83Ihzo.png?dl=1" title="IMG_0609"><img src="resources/f82ea17b5088675442bc125cfe3dcc6c951d02a6_2_690x1493.png" alt="IMG_0609" data-base62-sha1="n9u7RTWRmquLfstb4kpPoL3SDCb" width="690" height="1493" srcset="resources/f82ea17b5088675442bc125cfe3dcc6c951d02a6_2_690x1493.png resources/f82ea17b5088675442bc125cfe3dcc6c951d02a6_2_1035x2239.png 1.5x resources/f82ea17b5088675442bc125cfe3dcc6c951d02a6.png 2x resources/f82ea17b5088675442bc125cfe3dcc6c951d02a6.png 2.5x resources/f82ea17b5088675442bc125cfe3dcc6c951d02a6.png 3x" data-dominant-color="F4F6F5"><div class="meta">
+<svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">IMG_0609</span><span class="informations">1170×2532 329 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg>
+</div></a></div></p>
+</details>
+<details>
+<summary>
+今天中午又得支付一遍🥲</summary>
+<p><div class="lightbox-wrapper"><a class="lightbox" href="https://shuiyuan.sjtu.edu.cn/secure-uploads/original/4X/b/2/4/b245cb23029d29346366f4b5dc778dc4db97c1fc.png" data-download-href="/uploads/short-url/pr4wl980J90qsdn7qXsPaANsW9S.png?dl=1" title="IMG_0610"><img src="resources/b245cb23029d29346366f4b5dc778dc4db97c1fc_2_690x1493.png" alt="IMG_0610" data-base62-sha1="t1If5gXMlwYaCCUmhcQzXiaDVYV" width="690" height="1493" srcset="resources/b245cb23029d29346366f4b5dc778dc4db97c1fc_2_690x1493.png resources/b245cb23029d29346366f4b5dc778dc4db97c1fc_2_1035x2239.png 1.5x resources/b245cb23029d29346366f4b5dc778dc4db97c1fc.png 2x resources/b245cb23029d29346366f4b5dc778dc4db97c1fc.png 2.5x resources/b245cb23029d29346366f4b5dc778dc4db97c1fc.png 3x" data-dominant-color="F5F6F6"><div class="meta">
+<svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">IMG_0610</span><span class="informations">1170×2532 255 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg>
+</div></a></div></p>
+</details>
+            </div>
+
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Devan Larson</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2023-04-27 04:39:56.822 UTC" class="post-time">
+                    2023年04月27日 12:39
+                </time>
+                        <span itemprop="position">#13</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p><a class="mention">@Mollie Cruickshank</a></p>
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                    <span class="post-likes">1 个赞</span>
+                </div>
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Tyrel Marquardt</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2023-04-27 06:31:26.079 UTC" class="post-time">
+                    2023年04月27日 14:31
+                </time>
+                        <span itemprop="position">(回复 #12) #14</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>建议你在交我办生活服务部门进行反馈</p>
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                    <span class="post-likes">1 个赞</span>
+                </div>
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Jordane Russel</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2023-04-27 06:43:34.803 UTC" class="post-time">
+                    2023年04月27日 14:43
+                </time>
+                        <span itemprop="position">#15</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>为什么我扫V卡支付对象都是上海交通大学而不是这个“腾讯微校校园卡支付平台” <img src="resources/face_with_monocle_v=12.png" title=":face_with_monocle:" class="emoji" alt=":face_with_monocle:" loading="lazy" width="20" height="20"></p>
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                        <img alt height="20" width="20" src="resources/heavy_plus_sign.png"/>
+                        <span style="padding-right: 5px">1</span>
+                </div>
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Wilfredo Johns</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2023-04-27 06:48:03.160 UTC" class="post-time">
+                    2023年04月27日 14:48
+                </time>
+                        <span itemprop="position">#16</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>建议还是V卡，思源码支付功能毕竟出来的晚，不完善也正常</p>
+            </div>
+
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Deven Frami</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2023-04-27 15:08:18.421 UTC" class="post-time">
+                    2023年04月27日 23:08
+                </time>
+                        <span itemprop="position">#18</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>建议你报修，问题才能得到明确定位和解决。</p>
+<p>从描述信息看，是26日晚的一笔扫码消费在POS机报失败的情况下形成了欠费订单，这肯定是有问题的。</p>
+<p>如果是正常展码，关联银行卡余额不足不应该造成支付失败，仅从描述的现象怀疑POS机可能存在问题。</p>
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                    <span class="post-likes">1 个赞</span>
+                </div>
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Deven Frami</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2023-04-27 15:18:33.165 UTC" class="post-time">
+                    2023年04月27日 23:18
+                </time>
+                        <span itemprop="position">(回复 #15) #19</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>正常消费的支付对象是学校，欠费缴付会不一样，因为欠费发生时会有垫付，因此交易当时应该是报成功才对。</p>
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                    <span class="post-likes">1 个赞</span>
+                </div>
+
+        </div>
+    <div role="navigation" itemscope="" itemtype="http://schema.org/SiteNavigationElement"
+         class="topic-body crawler-post">
+    </div>
+</div>
+<footer class="container wrap">
+    <p class="powered-by-link">由 <a href="https://www.discourse.org/">Discourse</a> 提供技术支持</p>
+</footer>
+<div style="text-align: center;">©2023 上海交通大学</div>
+<br>
+</body>
+</html>

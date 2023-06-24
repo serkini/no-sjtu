@@ -1,0 +1,677 @@
+<!-- Archived from: https://shuiyuan.sjtu.edu.cn/t/topic/68942 -->
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta
+            data-topic-id="68942"
+            data-title="夜间校园网开始对B站、抖音、爱奇艺、英雄联盟等娱乐站点进行限制"
+            data-page="3"
+            data-total-pages="22"
+            data-categories="校园网络"
+            data-tags="网络"
+            data-archiver-name="shuiyuan-archiver"
+            data-archiver-version="0.2.0"
+    />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="具体情况
+
+2022年5月25日0点起，夜间使用校园网络时无法打开部分娱乐网站。经测试早晨8点准时恢复（帖子 #118）
+
+已知受影响娱乐网站列表：（欢迎补充）
+
+哔哩哔哩、腾讯视频、爱奇艺、优酷、华数TV、抖音、快手
+Steam商店和聊天、Origin旗下游戏、战网旗下游戏、英雄联盟、崩坏3、Re0等爱奇艺游戏
+
+6月1日新增屏蔽站点：（帖子 #327）
+
+米哈游旗下游戏、4399小游戏、37网游
+芒果TV、西瓜视频
+
+6月9日(?)起b站限制时间延后到2点开始。
+
+9月测试新发现屏蔽站点：
+
+QQ游戏大厅、WeGame旗下游戏、Ubisoft旗下游戏、PlayStation旗下游戏、Nintendo Switch旗下游戏（帖子 #381）、和平精英（帖子
+#380）
+
+12月测试新发现屏蔽站点：
+
+CIBN影视（中国国际广播电视网络台）、CS:GO国际服
+
+未提到的主流网站均已测试，不受影响。
+
+技术细节
+
+
+image
+image1051×536 96.5 KB
+
+IMG_20220525_024311_512x558
+
+
+说阴谋论的麻烦自己nslookup一下交大DNS :sweat_smile:
+
+解决方案
+
+经查原因是学校DNS不返回相关域名查询结果，导致校内网络用户在默认配置下相关网站被屏蔽。推荐手动指定DNS为校外DNS以解决，比
+如这些：
+
+119.29.29.29
+223.5.5.5
+1.2.4.8
+114.114.114.114
+
+（查看自己的DNS：访问 https://www.dnsleaktest.com/ 点击Standard
+Test，如果结果是202.120或202.112开头的，那就说明用的是学校DNS，需要更换才能正常访问娱乐网站）
+
+各平台修改DNS教程：https://wap.521qw.com/archives/157
+
+（安卓可以试一下设置里的私人DNS填 dns.alidns.com 。如果设置里没有就下一个软件来改DNS，百度搜索“安卓改dns软件”即可。
+寝室有线网接路由器的同学，直接修改路由器上的DNS设置更方便。）
+
+如果修改DNS后还没能解决，记得检查IPv6是否也更换了DNS（尤其是电脑和路由器设置的时候要注意，见帖子
+#107）。或者可以直接禁用IPv6功能。推荐一些IPv6 DNS：
+
+2402:4e00::
+2400:3200::1
+2400:3200:baba::1
+2400:da00::6666
+
+当然，使用某些能改IP地址的魔法软件也是可以的，只不过访问境内网站速度可能会变慢，可以配下策略只接管DNS不代理流量。
+
+最后，用手机流量当然也可以绕过此限制，但学校的5G融合网卡的流量也和校内连通，也无法访问娱乐网站（帖子
+71201），所以得靠软件修改DNS了。
+
+更新
+
+“是的。”
+
+ykh:
+
+凌晨在交我办报修了此问题，结果却是直接结束了我的工单。已实锤了
+
+OQA{00IOD}XTD9SV{C$43FH
+
+经测试，5月26日起每日0:01校园DNS返回异常，8:00恢复。
+5月29日凌晨欧冠决赛，上述网站列表中仅B站恢复正常，且在欧冠结束后8点前恢复屏蔽。
+
+其他
+
+仿佛又回到了19级及以前，大一到大三夜间断网的时代。大家早点休息吧 :slightly_smiling_face:
+
+这̶事̶疑̶似̶与̶D̶1̶8̶事̶件̶有̶关̶
+
+所以熬夜学习能砍学分吗 :sob:
+">
+    <title>夜间校园网开始对B站、抖音、爱奇艺、英雄联盟等娱乐站点进行限制 | 第 3 页</title>
+    <link href="resources/desktop_a6ebc8d83f637bb00f4f3fe2bed708de5b2f46cb.css" media="all"
+          rel="stylesheet" data-target="desktop">
+    <link href="resources/desktop_theme_18_6044d2798548d883edb7b504e9678e59bef1ea37.css"
+          media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="18" data-theme-name="discotoc">
+    <link href="resources/desktop_theme_59_0cc413d2f69104e201591ee89508c6059f2237e7.css"
+          media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="59"
+          data-theme-name="discourse-watermark">
+    <link href="resources/desktop_theme_34_b6cc8e9ec8740a61600e8db01d7b9428a3940549.css"
+          media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="34" data-theme-name="pdf previews">
+    <link href="resources/desktop_theme_52_4859297324a16e5bb8c1f9d01f3bf0ffa6a9b29c.css"
+          media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="52" data-theme-name="remove-excerpt">
+    <link href="resources/desktop_theme_58_c33a83ba3ef5ab3b25e5a5619c4161eb0f495dce.css"
+          media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="58"
+          data-theme-name="remove-hidden-gap">
+    <link href="resources/desktop_theme_37_127867e7b59b2a0102d5189a36d24792f6a176f0.css"
+          media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="37"
+          data-theme-name="remove-shield-icon">
+    <link href="resources/desktop_theme_56_ecee7c2e40c9669a25d0f4e842a1b86202e00733.css"
+          media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="56"
+          data-theme-name="remove-solved-text">
+    <link href="resources/desktop_theme_54_e006d487a3f75a32724103e42208dca26c361ac8.css"
+          media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="54" data-theme-name="retort">
+    <link href="resources/desktop_theme_3_8828b367cb8a28b2296c7bfe6f433ad504773044.css"
+          media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="3" data-theme-name="亮">
+    <script src="resources/79ef348eb9f79f287b6c835ff09169b855d710f2.js"></script>
+</head>
+
+<body class="crawler">
+<script src="resources/205da9bd7e50046f118af4e49e6a562905a2ca26.js"></script>
+<script src="resources/dd73fca2e692e339380e847ce439a9e2a083d9bb.js"></script>
+<header>
+    <a href="https://shuiyuan.sjtu.edu.cn/">
+        <img src="resources/f8a88a3a02eaa06e8d2c51ea944df2f7abdc374e.png" alt="水源社区"
+             id="site-logo" style="max-width: 150px;">
+    </a>
+</header>
+<div id="main-outlet" class="wrap">
+    <div id="topic-title">
+        <h1>
+            <a href="index.html">夜间校园网开始对B站、抖音、爱奇艺、英雄联盟等娱乐站点进行限制</a>
+        </h1>
+
+        <div class="topic-category" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+                <span itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+                  <a class="badge-wrapper bullet" itemprop="item">
+                    <span class="badge-category-bg" style="background-color: #FF9800"></span>
+                    <span class="badge-category clear-badge">
+                      <span class="category-name" itemprop="name">校园网络</span>
+                    </span>
+                  </a>
+                </span>
+        </div>
+
+        <div class="topic-category">
+            <div class="discourse-tags list-tags">
+                    <a class="discourse-tag" rel="tag">网络</a>
+            </div>
+        </div>
+    </div>
+
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Yesenia Ratke</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-05-24 16:35:55.647 UTC" class="post-time">
+                    2022年05月25日 00:35
+                </time>
+                        <span itemprop="position">(回复 #39) #42</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>改本地的也有用啊，你现在什么无法访问，用的哪个DNS服务器</p>
+            </div>
+
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Simeon Rogahn</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-05-24 16:35:57.953 UTC" class="post-time">
+                    2022年05月25日 00:35
+                </time>
+                        <span itemprop="position">(回复 #39) #43</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>Windows 打开命令行，输入</p>
+<pre><code class="lang-auto">ipconfig /flushdns
+</code></pre>
+<p>手机就重启吧</p>
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                    <span class="post-likes">3 个赞</span>
+                </div>
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Marjory Raynor</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-05-24 16:36:02.971 UTC" class="post-time">
+                    2022年05月25日 00:36
+                </time>
+                        <span itemprop="position">#44</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>娱乐站点 还以为是porn</p>
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                        <img alt height="20" width="20" src="resources/joy.png"/>
+                        <span style="padding-right: 5px">1</span>
+                        <img alt height="20" width="20" src="resources/smiling_face_with_three_hearts.png"/>
+                        <span style="padding-right: 5px">10</span>
+                </div>
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                    <span class="post-likes">3 个赞</span>
+                </div>
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Trycia Tromp</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-05-24 16:36:42.877 UTC" class="post-time">
+                    2022年05月25日 00:36
+                </time>
+                        <span itemprop="position">#45</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>菜鸡发问：刚才腾讯视频HD无法打开视频，和这个有关吗</p>
+            </div>
+
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Dolores Rutherford</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-05-24 16:38:06.720 UTC" class="post-time">
+                    2022年05月25日 00:38
+                </time>
+                        <span itemprop="position">#47</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>有没有哥们细说一下D18发生了什么</p>
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                    <span class="post-likes">1 个赞</span>
+                </div>
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Cortney Romaguera</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-05-24 16:40:20.426 UTC" class="post-time">
+                    2022年05月25日 00:40
+                </time>
+                        <span itemprop="position">#48</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>Mac 改了dns也不行是为啥呀<br>
+<div class="lightbox-wrapper"><a class="lightbox" href="https://shuiyuan.sjtu.edu.cn/secure-uploads/original/4X/a/7/4/a74b2f1b3409b617c82aa48439ab4da5d70b5f8b.jpeg" data-download-href="/uploads/short-url/nRWOKy0QfeMGGERRQBwnVaeFpp1.jpeg?dl=1" title="image"><img src="resources/a74b2f1b3409b617c82aa48439ab4da5d70b5f8b_2_690x535.jpeg" alt="image" data-base62-sha1="tzQluehPFkZLAgPLW5G5yaCxIDp" width="690" height="535" srcset="resources/a74b2f1b3409b617c82aa48439ab4da5d70b5f8b_2_690x535.jpeg resources/a74b2f1b3409b617c82aa48439ab4da5d70b5f8b_2_1035x802.jpeg 1.5x resources/a74b2f1b3409b617c82aa48439ab4da5d70b5f8b.jpeg 2x resources/a74b2f1b3409b617c82aa48439ab4da5d70b5f8b.jpeg 2.5x resources/a74b2f1b3409b617c82aa48439ab4da5d70b5f8b.jpeg 3x" data-dominant-color="212224"><div class="meta">
+<svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">1280×994 55.2 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg>
+</div></a></div></p>
+            </div>
+
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Jessy Robel</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-05-24 16:40:42.751 UTC" class="post-time">
+                    2022年05月25日 00:40
+                </time>
+                        <span itemprop="position">(回复 #25) #49</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>听说是熬夜打游戏，不是在卷。<br>
+所以确实可能相关？</p>
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                    <span class="post-likes">1 个赞</span>
+                </div>
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Marjory Raynor</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-05-24 16:41:03.262 UTC" class="post-time">
+                    2022年05月25日 00:41
+                </time>
+                        <span itemprop="position">(回复 #47) #51</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <aside class="quote" data-post="1" data-topic="66599">
+  <div class="title">
+    <div class="quote-controls"></div>
+    
+    <a href="https://shuiyuan.sjtu.edu.cn/t/topic/66599">东18咋了</a> <a class="badge-wrapper  bullet" href="/c/23-category/23"><span class="badge-category-bg" style="background-color: #FF9800;"></span><span style="" data-drop-close="true" class="badge-category clear-badge" title="交大校园生活">校园生活</span></a>
+  </div>
+  <blockquote>
+    东18咋有救护车来了
+  </blockquote>
+</aside>
+
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                    <span class="post-likes">1 个赞</span>
+                </div>
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Brennan Jast</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-05-24 16:41:06.934 UTC" class="post-time">
+                    2022年05月25日 00:41
+                </time>
+                        <span itemprop="position">(回复 #34) #52</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>断网不合理吧，研究生有时候要熬夜赶项目或者写本子、改论文啥的，这不像本科的作业有个提前量，甲方的需求真的是根本不把你当人看，关键时候断个网项目不完犊子了？<br>
+我有个同学是国内外联合培养的，凌晨一点钟开组会，你给他晚上断网……这不是要人命么。<br>
+难以想象学校会实行这样的政策……</p>
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                    <span class="post-likes">30 个赞</span>
+                </div>
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Lonie Lueilwitz</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-05-24 16:41:12.258 UTC" class="post-time">
+                    2022年05月25日 00:41
+                </time>
+                        <span itemprop="position">(回复 #42) #53</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>114那个，之前改路由器是有效的，现在改本地的不知道为啥没生效，已经重启和按大家的方法刷新过了<br>
+<div class="lightbox-wrapper"><a class="lightbox" href="https://shuiyuan.sjtu.edu.cn/secure-uploads/original/4X/9/e/3/9e391f3804eb13ce3a254c209fda3cc16bd70107.png" data-download-href="/uploads/short-url/mzHP3GWoDb7Y6xab2BUouZuSiI7.png?dl=1" title="image"><img src="resources/9e391f3804eb13ce3a254c209fda3cc16bd70107_2_345x238.png" alt="image" data-base62-sha1="xrKFjZM8M7f6cFZuD7tHudN38Fu" width="345" height="238" srcset="resources/9e391f3804eb13ce3a254c209fda3cc16bd70107_2_345x238.png resources/9e391f3804eb13ce3a254c209fda3cc16bd70107_2_517x357.png 1.5x resources/9e391f3804eb13ce3a254c209fda3cc16bd70107_2_690x476.png 2x resources/9e391f3804eb13ce3a254c209fda3cc16bd70107.png 2.5x resources/9e391f3804eb13ce3a254c209fda3cc16bd70107.png 3x" data-dominant-color="EFF0F0"><div class="meta">
+<svg class="fa d-icon d-icon-far-image svg-icon" aria-hidden="true"><use href="#far-image"></use></svg><span class="filename">image</span><span class="informations">853×589 33.3 KB</span><svg class="fa d-icon d-icon-discourse-expand svg-icon" aria-hidden="true"><use href="#discourse-expand"></use></svg>
+</div></a></div></p>
+            </div>
+
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Yesenia Ratke</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-05-24 16:41:59.581 UTC" class="post-time">
+                    2022年05月25日 00:41
+                </time>
+                        <span itemprop="position">(回复 #52) #54</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>以前断网可能只断大一大二大三的？（听说）</p>
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                        <img alt height="20" width="20" src="resources/+1.png"/>
+                        <span style="padding-right: 5px">5</span>
+                </div>
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                    <span class="post-likes">9 个赞</span>
+                </div>
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Cynthia Orn</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-05-24 16:42:14.451 UTC" class="post-time">
+                    2022年05月25日 00:42
+                </time>
+                        <span itemprop="position">(回复 #52) #56</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>合不合理的，过去十几年都是这么过来的，没见有什么问题</p>
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                        <img alt height="20" width="20" src="resources/-1.png"/>
+                        <span style="padding-right: 5px">9</span>
+                        <img alt height="20" width="20" src="resources/sweat_smile.png"/>
+                        <span style="padding-right: 5px">15</span>
+                </div>
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Yesenia Ratke</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-05-24 16:42:19.387 UTC" class="post-time">
+                    2022年05月25日 00:42
+                </time>
+                        <span itemprop="position">(回复 #53) #57</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>现在好了吗</p>
+<p>好像是牛排哥哥说的问题</p>
+            </div>
+
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Bernice Berge</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-05-24 16:43:00.171 UTC" class="post-time">
+                    2022年05月25日 00:43
+                </time>
+                        <span itemprop="position">#58</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>还真是，b站缩略图加载不出来，直播看不了，不过视频还能看。其他网站不清楚</p>
+            </div>
+
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Kaela Goldner</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-05-24 16:43:06.851 UTC" class="post-time">
+                    2022年05月25日 00:43
+                </time>
+                        <span itemprop="position">#59</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p><s>学校dns似乎恢复了b站解析。</s><br>
+似乎是间歇性的……</p>
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                    <span class="post-likes">3 个赞</span>
+                </div>
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Marta Zemlak</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-05-24 16:43:14.078 UTC" class="post-time">
+                    2022年05月25日 00:43
+                </time>
+                        <span itemprop="position">(回复 #53) #60</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>win11 表示设置可以</p>
+            </div>
+
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Jaclyn Ritchie</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-05-24 16:43:21.418 UTC" class="post-time">
+                    2022年05月25日 00:43
+                </time>
+                        <span itemprop="position">(回复 #59) #61</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>看来是临时故障？ <img src="resources/clown_face_v=12.png" title=":clown_face:" class="Darian Ullrich" alt=":clown_face:" loading="lazy" width="20" height="20"></p>
+<p>结果水源社区见风就是雨</p>
+<p>学生们纷纷以为自己被针对了</p>
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                    <span class="post-likes">15 个赞</span>
+                </div>
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Kaela Goldner</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-05-24 16:43:38.573 UTC" class="post-time">
+                    2022年05月25日 00:43
+                </time>
+                        <span itemprop="position">(回复 #61) #62</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>确实。</p>
+            </div>
+
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Lonie Lueilwitz</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-05-24 16:45:57.325 UTC" class="post-time">
+                    2022年05月25日 00:45
+                </time>
+                        <span itemprop="position">(回复 #55) #63</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>台式机有线网（有且仅有</p>
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                    <span class="post-likes">1 个赞</span>
+                </div>
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Yesenia Ratke</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-05-24 16:47:04.440 UTC" class="post-time">
+                    2022年05月25日 00:47
+                </time>
+                        <span itemprop="position">(回复 #63) #64</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>你现在是哪个网站无法访问？尝试在CMD里 Ping 一下看看是什么情况</p>
+            </div>
+
+
+        </div>
+    <div role="navigation" itemscope="" itemtype="http://schema.org/SiteNavigationElement"
+         class="topic-body crawler-post">
+            <span itemprop="name"><a rel="prev" itemprop="url" href="2.html">← 上一页</a></span>
+            <span itemprop="name"><b><a rel="next" itemprop="url" href="4.html">下一页 →</a></b></span>
+    </div>
+</div>
+<footer class="container wrap">
+    <p class="powered-by-link">由 <a href="https://www.discourse.org/">Discourse</a> 提供技术支持</p>
+</footer>
+<div style="text-align: center;">©2023 上海交通大学</div>
+<br>
+</body>
+</html>

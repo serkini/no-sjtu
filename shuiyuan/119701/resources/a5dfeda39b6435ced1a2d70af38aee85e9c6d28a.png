@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <title>找不到页面 - 水源社区</title>
+  <meta name="description" content="">
+  <meta name="generator" content="Discourse 3.1.0.beta4 - https://github.com/discourse/discourse version ccf18b5e4450767655075855a1a21c739660223f">
+<link rel="icon" type="image/png" href="https://shuiyuan.s3.jcloud.sjtu.edu.cn/optimized/4X/9/d/6/9d68fbba5f6a6e9de4de42b089d0c62f39cdb3d6_2_32x32.png">
+<link rel="apple-touch-icon" type="image/png" href="https://shuiyuan.s3.jcloud.sjtu.edu.cn/optimized/4X/3/6/7/367cb152ca2cc40f1cf3e7ede4ff8069727167cc_2_180x180.png">
+<meta name="theme-color" media="(prefers-color-scheme: light)" content="#111111">
+<meta name="theme-color" media="(prefers-color-scheme: dark)" content="#111111">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, user-scalable=yes, viewport-fit=cover">
+<link rel="canonical" href="https://shuiyuan.sjtu.edu.cn/secure-uploads/original/3X/a/5/a5dfeda39b6435ced1a2d70af38aee85e9c6d28a.png" />
+
+<link rel="search" type="application/opensearchdescription+xml" href="https://shuiyuan.sjtu.edu.cn/opensearch.xml" title="水源社区 Search">
+
+  <link href="/stylesheets/color_definitions_scheme_1_1_ce82e3cd42b7ce0497258c9a3248487022d32f74.css?__ws=shuiyuan.sjtu.edu.cn" media="all" rel="stylesheet" class="light-scheme"/><link href="/stylesheets/color_definitions_scheme_1_1_ce82e3cd42b7ce0497258c9a3248487022d32f74.css?__ws=shuiyuan.sjtu.edu.cn" media="(prefers-color-scheme: dark)" rel="stylesheet" class="dark-scheme"/>
+
+  <link href="/stylesheets/desktop_f85847752bca87b9ddfa6b222cbdf836c23b1f2d.css?__ws=shuiyuan.sjtu.edu.cn" media="all" rel="stylesheet" data-target="desktop"  />
+
+
+
+  <link href="/stylesheets/discourse-bbcode_f85847752bca87b9ddfa6b222cbdf836c23b1f2d.css?__ws=shuiyuan.sjtu.edu.cn" media="all" rel="stylesheet" data-target="discourse-bbcode"  />
+  <link href="/stylesheets/discourse-cakeday_f85847752bca87b9ddfa6b222cbdf836c23b1f2d.css?__ws=shuiyuan.sjtu.edu.cn" media="all" rel="stylesheet" data-target="discourse-cakeday"  />
+  <link href="/stylesheets/discourse-checklist_f85847752bca87b9ddfa6b222cbdf836c23b1f2d.css?__ws=shuiyuan.sjtu.edu.cn" media="all" rel="stylesheet" data-target="discourse-checklist"  />
+  <link href="/stylesheets/discourse-data-explorer_f85847752bca87b9ddfa6b222cbdf836c23b1f2d.css?__ws=shuiyuan.sjtu.edu.cn" media="all" rel="stylesheet" data-target="discourse-data-explorer"  />
+  <link href="/stylesheets/discourse-details_f85847752bca87b9ddfa6b222cbdf836c23b1f2d.css?__ws=shuiyuan.sjtu.edu.cn" media="all" rel="stylesheet" data-target="discourse-details"  />
+  <link href="/stylesheets/discourse-docs_f85847752bca87b9ddfa6b222cbdf836c23b1f2d.css?__ws=shuiyuan.sjtu.edu.cn" media="all" rel="stylesheet" data-target="discourse-docs"  />
+  <link href="/stylesheets/discourse-lazy-videos_f85847752bca87b9ddfa6b222cbdf836c23b1f2d.css?__ws=shuiyuan.sjtu.edu.cn" media="all" rel="stylesheet" data-target="discourse-lazy-videos"  />
+  <link href="/stylesheets/discourse-local-dates_f85847752bca87b9ddfa6b222cbdf836c23b1f2d.css?__ws=shuiyuan.sjtu.edu.cn" media="all" rel="stylesheet" data-target="discourse-local-dates"  />
+  <link href="/stylesheets/discourse-math_f85847752bca87b9ddfa6b222cbdf836c23b1f2d.css?__ws=shuiyuan.sjtu.edu.cn" media="all" rel="stylesheet" data-target="discourse-math"  />
+  <link href="/stylesheets/discourse-narrative-bot_f85847752bca87b9ddfa6b222cbdf836c23b1f2d.css?__ws=shuiyuan.sjtu.edu.cn" media="all" rel="stylesheet" data-target="discourse-narrative-bot"  />
+  <link href="/stylesheets/discourse-onebox-weibo_f85847752bca87b9ddfa6b222cbdf836c23b1f2d.css?__ws=shuiyuan.sjtu.edu.cn" media="all" rel="stylesheet" data-target="discourse-onebox-weibo"  />
+  <link href="/stylesheets/discourse-presence_f85847752bca87b9ddfa6b222cbdf836c23b1f2d.css?__ws=shuiyuan.sjtu.edu.cn" media="all" rel="stylesheet" data-target="discourse-presence"  />
+  <link href="/stylesheets/discourse-solved_f85847752bca87b9ddfa6b222cbdf836c23b1f2d.css?__ws=shuiyuan.sjtu.edu.cn" media="all" rel="stylesheet" data-target="discourse-solved"  />
+  <link href="/stylesheets/discourse-spoiler-alert_f85847752bca87b9ddfa6b222cbdf836c23b1f2d.css?__ws=shuiyuan.sjtu.edu.cn" media="all" rel="stylesheet" data-target="discourse-spoiler-alert"  />
+  <link href="/stylesheets/docker_manager_f85847752bca87b9ddfa6b222cbdf836c23b1f2d.css?__ws=shuiyuan.sjtu.edu.cn" media="all" rel="stylesheet" data-target="docker_manager"  />
+  <link href="/stylesheets/poll_f85847752bca87b9ddfa6b222cbdf836c23b1f2d.css?__ws=shuiyuan.sjtu.edu.cn" media="all" rel="stylesheet" data-target="poll"  />
+  <link href="/stylesheets/retort_f85847752bca87b9ddfa6b222cbdf836c23b1f2d.css?__ws=shuiyuan.sjtu.edu.cn" media="all" rel="stylesheet" data-target="retort"  />
+  <link href="/stylesheets/poll_desktop_f85847752bca87b9ddfa6b222cbdf836c23b1f2d.css?__ws=shuiyuan.sjtu.edu.cn" media="all" rel="stylesheet" data-target="poll_desktop"  />
+  <link href="/stylesheets/retort_desktop_f85847752bca87b9ddfa6b222cbdf836c23b1f2d.css?__ws=shuiyuan.sjtu.edu.cn" media="all" rel="stylesheet" data-target="retort_desktop"  />
+
+  <link href="/stylesheets/desktop_theme_68_ff4f1fccec39cb7961630f4d2300ed747f4f1c0c.css?__ws=shuiyuan.sjtu.edu.cn" media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="68" data-theme-name="cookie consent banner"/>
+<link href="/stylesheets/desktop_theme_64_ec358b084fa9f9645c9c16d5e17d10e11d8c5f80.css?__ws=shuiyuan.sjtu.edu.cn" media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="64" data-theme-name="discotoc"/>
+<link href="/stylesheets/desktop_theme_59_7ed1063657b30a4dcd85e31188208a08acf8836a.css?__ws=shuiyuan.sjtu.edu.cn" media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="59" data-theme-name="discourse-watermark"/>
+<link href="/stylesheets/desktop_theme_79_07aff4601a7fcc865c07b67c4a65bdbe2f710b00.css?__ws=shuiyuan.sjtu.edu.cn" media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="79" data-theme-name="bilibili-onebox"/>
+<link href="/stylesheets/desktop_theme_74_024508b3b014b2a47a2cbe5286155c98c16aa637.css?__ws=shuiyuan.sjtu.edu.cn" media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="74" data-theme-name="discourse nav feature"/>
+<link href="/stylesheets/desktop_theme_81_a25b3305b1c96e1c93551bc44312bf6bf0bbac96.css?__ws=shuiyuan.sjtu.edu.cn" media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="81" data-theme-name="jwb-hide-logout"/>
+<link href="/stylesheets/desktop_theme_58_9fdbd442602116657999f79ffba7084d763dda91.css?__ws=shuiyuan.sjtu.edu.cn" media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="58" data-theme-name="remove-hidden-gap"/>
+<link href="/stylesheets/desktop_theme_37_9b07873186acba6cf11452ff595dc436c7babdc5.css?__ws=shuiyuan.sjtu.edu.cn" media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="37" data-theme-name="remove-shield-icon"/>
+<link href="/stylesheets/desktop_theme_56_bd8e81f53016b0dde90faf7fcab43382b970ff09.css?__ws=shuiyuan.sjtu.edu.cn" media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="56" data-theme-name="remove-solved-text"/>
+<link href="/stylesheets/desktop_theme_75_311ada5e82ce0e39e43e75ed9c2054ede0e4e582.css?__ws=shuiyuan.sjtu.edu.cn" media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="75" data-theme-name="remove-some-emoji"/>
+<link href="/stylesheets/desktop_theme_83_f69852f46c5d4306a63b4a8ccd46c437bffb65b7.css?__ws=shuiyuan.sjtu.edu.cn" media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="83" data-theme-name="sidebar-fix"/>
+<link href="/stylesheets/desktop_theme_65_f58f14a5e43d876cfd4f817a7eca8e42b2cfb19b.css?__ws=shuiyuan.sjtu.edu.cn" media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="65" data-theme-name="unset-custom-emoji-size"/>
+<link href="/stylesheets/desktop_theme_1_07ed89efad6e7ef0a42e448b61d5d836a45d27b5.css?__ws=shuiyuan.sjtu.edu.cn" media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="1" data-theme-name="dark"/>
+
+  <meta name="csrf-param" content="authenticity_token" />
+<meta name="csrf-token" content="UtFKzHdWlWZjaD2WN0CavcTb3pLoMRSJvsYuXMmvjBM3ZPxgjf01xSbwhPdc6ZDd2Tw_Q35WioY6SN4REKVyQw" />
+
+    <link rel="preload" href="/theme-javascripts/6c8621ba4efc74fc050d518b7100bbf2f2d23aa9.js?__ws=shuiyuan.sjtu.edu.cn" as="script">
+<script defer="" src="/theme-javascripts/6c8621ba4efc74fc050d518b7100bbf2f2d23aa9.js?__ws=shuiyuan.sjtu.edu.cn" data-theme-id="47"></script>
+
+
+
+
+<link rel="preload" href="/theme-javascripts/29a4d61ea24c712107e2e89edb8d5441cb47de58.js?__ws=shuiyuan.sjtu.edu.cn" as="script">
+<script defer="" src="/theme-javascripts/29a4d61ea24c712107e2e89edb8d5441cb47de58.js?__ws=shuiyuan.sjtu.edu.cn" data-theme-id="68"></script>
+
+<link rel="preload" href="/theme-javascripts/8fbb00256181dc811ab44045806f1213d4281513.js?__ws=shuiyuan.sjtu.edu.cn" as="script">
+<script defer="" src="/theme-javascripts/8fbb00256181dc811ab44045806f1213d4281513.js?__ws=shuiyuan.sjtu.edu.cn" data-theme-id="80"></script>
+
+<link rel="preload" href="/theme-javascripts/ec422ab66afb234aef01dbfd5b072c1d82cfa5c4.js?__ws=shuiyuan.sjtu.edu.cn" as="script">
+<script defer="" src="/theme-javascripts/ec422ab66afb234aef01dbfd5b072c1d82cfa5c4.js?__ws=shuiyuan.sjtu.edu.cn" data-theme-id="81"></script>
+
+
+  
+
+    
+</head>
+<body class="no-ember ">
+    
+
+    
+
+    
+
+  <section id='main'>
+    
+  <header class="d-header">
+    <div class="wrap">
+      <div class="contents clearfix">
+        <div class="title">
+          <a href="/">
+              <picture>
+                <img src="https://shuiyuan.s3.jcloud.sjtu.edu.cn/original/4X/b/0/1/b0194b890791784b220e898e475ed2cca88584f3.svg" alt="水源社区" id="site-logo" />
+              </picture>
+          </a>
+        </div>
+        <div class="panel clearfix">
+        </div>
+      </div>
+    </div>
+  </header>
+
+    <div id="main-outlet" class="wrap not-found-container">
+      
+
+<div class="page-not-found">
+  <h1 class="title">糟糕！该页面是一个不公开页面。</h1>
+
+
+</div>
+
+
+
+<div class="row page-not-found-topics">
+    <div class="popular-topics">
+      <h2 class="popular-topics-title">热门</h2>
+        <div class='not-found-topic'>
+          <a href="/t/topic/162152">520，女朋友要和我分手</a><a class='badge-wrapper  bullet' href='/c/35-category/52-category/52'><span class='badge-category-parent-bg' style='background-color: #FFD600;'></span><span class='badge-category-bg' style='background-color: #FFEE58;'></span><span style='' data-drop-close='true' class='badge-category clear-badge'
+                 title='分享你的感情故事和经验，相亲交友表白请至「相约鹊桥」'>知性感性</span></a>
+        </div>
+        <div class='not-found-topic'>
+          <a href="/t/topic/164305">📰 Teru邀请你一起复习时政知识点【大一大二进】</a><a class='badge-wrapper  bullet' href='/c/36-category/61-category/61'><span class='badge-category-parent-bg' style='background-color: #DD2C00;'></span><span class='badge-category-bg' style='background-color: #FF7043;'></span><span style='' data-drop-close='true' class='badge-category clear-badge'
+                 title='本分类为不属于教务问题的课程知识内容。学业生涯经验类请至“学习进阶”分类。'>课业学习</span></a>
+        </div>
+        <div class='not-found-topic'>
+          <a href="/t/topic/159352">被盗号了www</a><a class='badge-wrapper  bullet' href='/c/35-category/e8b088e7ac91e9a38ee7949f/63'><span class='badge-category-parent-bg' style='background-color: #FFD600;'></span><span class='badge-category-bg' style='background-color: #F9A825;'></span><span style='' data-drop-close='true' class='badge-category clear-badge'
+                 title='闲聊、杂谈、灌水，或者找不到合适分类的话题。'>谈笑风生</span></a>
+        </div>
+        <div class='not-found-topic'>
+          <a href="/t/topic/168065">她说出那句话时，我确凿哽咽了。</a><a class='badge-wrapper  bullet' href='/c/35-category/69-category/69'><span class='badge-category-parent-bg' style='background-color: #FFD600;'></span><span class='badge-category-bg' style='background-color: #FFF176;'></span><span style='' data-drop-close='true' class='badge-category clear-badge'
+                 title='心情以内，爱情以外。心情感悟、吐槽等。'>心情驿站</span></a>
+        </div>
+        <div class='not-found-topic'>
+          <a href="/t/topic/161316">好歹装一下吧<img src="/images/emoji/google/sweat_smile.png?v=12" title="sweat_smile" class="emoji" alt="sweat_smile" loading="lazy" width="20" height="20"></a><a class='badge-wrapper  bullet' href='/c/23-category/23'><span class='badge-category-bg' style='background-color: #FF6D00;'></span><span style='' data-drop-close='true' class='badge-category clear-badge'
+                 title='交大校园生活'>校园生活</span></a>
+        </div>
+        <div class='not-found-topic'>
+          <a href="/t/topic/167909">📕 毛概2023版新增考点详解及全书重点</a><a class='badge-wrapper  bullet' href='/c/36-category/61-category/61'><span class='badge-category-parent-bg' style='background-color: #DD2C00;'></span><span class='badge-category-bg' style='background-color: #FF7043;'></span><span style='' data-drop-close='true' class='badge-category clear-badge'
+                 title='本分类为不属于教务问题的课程知识内容。学业生涯经验类请至“学习进阶”分类。'>课业学习</span></a>
+        </div>
+        <div class='not-found-topic'>
+          <a href="/t/topic/160803">感慨机会大于努力</a><a class='badge-wrapper  bullet' href='/c/87-category/92-category/92'><span class='badge-category-parent-bg' style='background-color: #FFAB00;'></span><span class='badge-category-bg' style='background-color: #FFECB3;'></span><span style='' data-drop-close='true' class='badge-category clear-badge'
+                 title='就业求职的经验分享，如实习经历、校招经验，十分欢迎毕业校友分享工作的经验。招聘广告请发至「招聘信息」分类。'>职场生涯</span></a>
+        </div>
+        <div class='not-found-topic'>
+          <a href="/t/topic/160314">想提前给还在学校里的同学们留亿点点心里话</a><a class='badge-wrapper  bullet' href='/c/87-category/87'><span class='badge-category-bg' style='background-color: #FFAB00;'></span><span style='' data-drop-close='true' class='badge-category clear-badge'
+                 title='分享一些人生的经验'>人生经验</span></a>
+        </div>
+        <div class='not-found-topic'>
+          <a href="/t/topic/162279">提一嘴，永平路上有一家店鬼秤</a><a class='badge-wrapper  bullet' href='/c/23-category/23'><span class='badge-category-bg' style='background-color: #FF6D00;'></span><span style='' data-drop-close='true' class='badge-category clear-badge'
+                 title='交大校园生活'>校园生活</span></a>
+        </div>
+        <div class='not-found-topic'>
+          <a href="/t/topic/159854">十五年了，为了未忘却的记忆</a><a class='badge-wrapper  bullet' href='/c/35-category/e8b088e7ac91e9a38ee7949f/63'><span class='badge-category-parent-bg' style='background-color: #FFD600;'></span><span class='badge-category-bg' style='background-color: #F9A825;'></span><span style='' data-drop-close='true' class='badge-category clear-badge'
+                 title='闲聊、杂谈、灌水，或者找不到合适分类的话题。'>谈笑风生</span></a>
+        </div>
+      <a href="/top" class="btn btn-default">更多&hellip;</a>
+    </div>
+    <div class="recent-topics">
+      <h2 class="recent-topics-title">最近</h2>
+        <div class='not-found-topic'>
+          <a href="/t/topic/168959">同被骗钱 550，对恶意的人表达善意的后果？</a><a class='badge-wrapper  bullet' href='/c/87-category/87'><span class='badge-category-bg' style='background-color: #FFAB00;'></span><span style='' data-drop-close='true' class='badge-category clear-badge'
+                 title='分享一些人生的经验'>人生经验</span></a>
+        </div>
+        <div class='not-found-topic'>
+          <a href="/t/topic/168953">界面更新后的一点问题</a><a class='badge-wrapper  bullet' href='/c/53-category/2-category/2'><span class='badge-category-parent-bg' style='background-color: #651FFF;'></span><span class='badge-category-bg' style='background-color: #7E57C2;'></span><span style='' data-drop-close='true' class='badge-category clear-badge'
+                 title='欢迎提出对本站的建议，意见和反馈'>站点反馈</span></a>
+        </div>
+        <div class='not-found-topic'>
+          <a href="/t/topic/168949">好想开巨大机器人啊谁懂啊😭</a><a class='badge-wrapper  bullet' href='/c/35-category/e8b088e7ac91e9a38ee7949f/63'><span class='badge-category-parent-bg' style='background-color: #FFD600;'></span><span class='badge-category-bg' style='background-color: #F9A825;'></span><span style='' data-drop-close='true' class='badge-category clear-badge'
+                 title='闲聊、杂谈、灌水，或者找不到合适分类的话题。'>谈笑风生</span></a>
+        </div>
+        <div class='not-found-topic'>
+          <a href="/t/topic/168945">可恶啊我为什么没生成一个美女啊</a><a class='badge-wrapper  bullet' href='/c/35-category/e8b088e7ac91e9a38ee7949f/63'><span class='badge-category-parent-bg' style='background-color: #FFD600;'></span><span class='badge-category-bg' style='background-color: #F9A825;'></span><span style='' data-drop-close='true' class='badge-category clear-badge'
+                 title='闲聊、杂谈、灌水，或者找不到合适分类的话题。'>谈笑风生</span></a>
+        </div>
+        <div class='not-found-topic'>
+          <a href="/t/topic/168944">有没有喜欢听张震岳的友友</a><a class='badge-wrapper  bullet' href='/c/79-category/68-category/68'><span class='badge-category-parent-bg' style='background-color: #AEEA00;'></span><span class='badge-category-bg' style='background-color: #DCE775;'></span><span style='' data-drop-close='true' class='badge-category clear-badge'
+                 title='音乐交流、分享、创作相关。'>音乐之声</span></a>
+        </div>
+        <div class='not-found-topic'>
+          <a href="/t/topic/168943">【⚠重口警告】看到个离谱至极的房屋清洁视频</a><a class='badge-wrapper  bullet' href='/c/35-category/e8b088e7ac91e9a38ee7949f/63'><span class='badge-category-parent-bg' style='background-color: #FFD600;'></span><span class='badge-category-bg' style='background-color: #F9A825;'></span><span style='' data-drop-close='true' class='badge-category clear-badge'
+                 title='闲聊、杂谈、灌水，或者找不到合适分类的话题。'>谈笑风生</span></a>
+        </div>
+        <div class='not-found-topic'>
+          <a href="/t/topic/168942">有没有两朵相似的花？</a><a class='badge-wrapper  bullet' href='/c/35-category/69-category/69'><span class='badge-category-parent-bg' style='background-color: #FFD600;'></span><span class='badge-category-bg' style='background-color: #FFF176;'></span><span style='' data-drop-close='true' class='badge-category clear-badge'
+                 title='心情以内，爱情以外。心情感悟、吐槽等。'>心情驿站</span></a>
+        </div>
+        <div class='not-found-topic'>
+          <a href="/t/topic/168941">华江小区两室出租(交大三公里，沪闵路到底)</a><a class='badge-wrapper  bullet' href='/c/10-category/26-category/26'><span class='badge-category-parent-bg' style='background-color: #00B8D4;'></span><span class='badge-category-bg' style='background-color: #00BCD4;'></span><span style='' data-drop-close='true' class='badge-category clear-badge'
+                 title='欢迎房东在此发布房源信息，租客在此发布求租信息'>租房信息</span></a>
+        </div>
+        <div class='not-found-topic'>
+          <a href="/t/topic/168940">求前年（20级）研究生新中特考试真题</a><a class='badge-wrapper  bullet' href='/c/36-category/61-category/61'><span class='badge-category-parent-bg' style='background-color: #DD2C00;'></span><span class='badge-category-bg' style='background-color: #FF7043;'></span><span style='' data-drop-close='true' class='badge-category clear-badge'
+                 title='本分类为不属于教务问题的课程知识内容。学业生涯经验类请至“学习进阶”分类。'>课业学习</span></a>
+        </div>
+        <div class='not-found-topic'>
+          <a href="/t/topic/168937">帮人打听一下药学院钱f老师课题组怎么样</a><a class='badge-wrapper  bullet' href='/c/36-category/85-category/85'><span class='badge-category-parent-bg' style='background-color: #DD2C00;'></span><span class='badge-category-bg' style='background-color: #FF5722;'></span><span style='' data-drop-close='true' class='badge-category clear-badge'
+                 title='科研、科创、竞赛。项目推广、招生请至“招生信息”分类。'>科研科创</span></a>
+        </div>
+      <a href="/latest" class="btn btn-default">更多&hellip;</a>
+    </div>
+</div>
+
+
+
+    </div>
+  </section>
+
+    
+    
+
+    
+    
+</body>
+</html>

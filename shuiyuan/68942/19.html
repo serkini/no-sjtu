@@ -1,0 +1,682 @@
+<!-- Archived from: https://shuiyuan.sjtu.edu.cn/t/topic/68942 -->
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta
+            data-topic-id="68942"
+            data-title="夜间校园网开始对B站、抖音、爱奇艺、英雄联盟等娱乐站点进行限制"
+            data-page="19"
+            data-total-pages="22"
+            data-categories="校园网络"
+            data-tags="网络"
+            data-archiver-name="shuiyuan-archiver"
+            data-archiver-version="0.2.0"
+    />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <meta name="description" content="具体情况
+
+2022年5月25日0点起，夜间使用校园网络时无法打开部分娱乐网站。经测试早晨8点准时恢复（帖子 #118）
+
+已知受影响娱乐网站列表：（欢迎补充）
+
+哔哩哔哩、腾讯视频、爱奇艺、优酷、华数TV、抖音、快手
+Steam商店和聊天、Origin旗下游戏、战网旗下游戏、英雄联盟、崩坏3、Re0等爱奇艺游戏
+
+6月1日新增屏蔽站点：（帖子 #327）
+
+米哈游旗下游戏、4399小游戏、37网游
+芒果TV、西瓜视频
+
+6月9日(?)起b站限制时间延后到2点开始。
+
+9月测试新发现屏蔽站点：
+
+QQ游戏大厅、WeGame旗下游戏、Ubisoft旗下游戏、PlayStation旗下游戏、Nintendo Switch旗下游戏（帖子 #381）、和平精英（帖子
+#380）
+
+12月测试新发现屏蔽站点：
+
+CIBN影视（中国国际广播电视网络台）、CS:GO国际服
+
+未提到的主流网站均已测试，不受影响。
+
+技术细节
+
+
+image
+image1051×536 96.5 KB
+
+IMG_20220525_024311_512x558
+
+
+说阴谋论的麻烦自己nslookup一下交大DNS :sweat_smile:
+
+解决方案
+
+经查原因是学校DNS不返回相关域名查询结果，导致校内网络用户在默认配置下相关网站被屏蔽。推荐手动指定DNS为校外DNS以解决，比
+如这些：
+
+119.29.29.29
+223.5.5.5
+1.2.4.8
+114.114.114.114
+
+（查看自己的DNS：访问 https://www.dnsleaktest.com/ 点击Standard
+Test，如果结果是202.120或202.112开头的，那就说明用的是学校DNS，需要更换才能正常访问娱乐网站）
+
+各平台修改DNS教程：https://wap.521qw.com/archives/157
+
+（安卓可以试一下设置里的私人DNS填 dns.alidns.com 。如果设置里没有就下一个软件来改DNS，百度搜索“安卓改dns软件”即可。
+寝室有线网接路由器的同学，直接修改路由器上的DNS设置更方便。）
+
+如果修改DNS后还没能解决，记得检查IPv6是否也更换了DNS（尤其是电脑和路由器设置的时候要注意，见帖子
+#107）。或者可以直接禁用IPv6功能。推荐一些IPv6 DNS：
+
+2402:4e00::
+2400:3200::1
+2400:3200:baba::1
+2400:da00::6666
+
+当然，使用某些能改IP地址的魔法软件也是可以的，只不过访问境内网站速度可能会变慢，可以配下策略只接管DNS不代理流量。
+
+最后，用手机流量当然也可以绕过此限制，但学校的5G融合网卡的流量也和校内连通，也无法访问娱乐网站（帖子
+71201），所以得靠软件修改DNS了。
+
+更新
+
+“是的。”
+
+ykh:
+
+凌晨在交我办报修了此问题，结果却是直接结束了我的工单。已实锤了
+
+OQA{00IOD}XTD9SV{C$43FH
+
+经测试，5月26日起每日0:01校园DNS返回异常，8:00恢复。
+5月29日凌晨欧冠决赛，上述网站列表中仅B站恢复正常，且在欧冠结束后8点前恢复屏蔽。
+
+其他
+
+仿佛又回到了19级及以前，大一到大三夜间断网的时代。大家早点休息吧 :slightly_smiling_face:
+
+这̶事̶疑̶似̶与̶D̶1̶8̶事̶件̶有̶关̶
+
+所以熬夜学习能砍学分吗 :sob:
+">
+    <title>夜间校园网开始对B站、抖音、爱奇艺、英雄联盟等娱乐站点进行限制 | 第 19 页</title>
+    <link href="resources/desktop_a6ebc8d83f637bb00f4f3fe2bed708de5b2f46cb.css" media="all"
+          rel="stylesheet" data-target="desktop">
+    <link href="resources/desktop_theme_18_6044d2798548d883edb7b504e9678e59bef1ea37.css"
+          media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="18" data-theme-name="discotoc">
+    <link href="resources/desktop_theme_59_0cc413d2f69104e201591ee89508c6059f2237e7.css"
+          media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="59"
+          data-theme-name="discourse-watermark">
+    <link href="resources/desktop_theme_34_b6cc8e9ec8740a61600e8db01d7b9428a3940549.css"
+          media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="34" data-theme-name="pdf previews">
+    <link href="resources/desktop_theme_52_4859297324a16e5bb8c1f9d01f3bf0ffa6a9b29c.css"
+          media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="52" data-theme-name="remove-excerpt">
+    <link href="resources/desktop_theme_58_c33a83ba3ef5ab3b25e5a5619c4161eb0f495dce.css"
+          media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="58"
+          data-theme-name="remove-hidden-gap">
+    <link href="resources/desktop_theme_37_127867e7b59b2a0102d5189a36d24792f6a176f0.css"
+          media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="37"
+          data-theme-name="remove-shield-icon">
+    <link href="resources/desktop_theme_56_ecee7c2e40c9669a25d0f4e842a1b86202e00733.css"
+          media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="56"
+          data-theme-name="remove-solved-text">
+    <link href="resources/desktop_theme_54_e006d487a3f75a32724103e42208dca26c361ac8.css"
+          media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="54" data-theme-name="retort">
+    <link href="resources/desktop_theme_3_8828b367cb8a28b2296c7bfe6f433ad504773044.css"
+          media="all" rel="stylesheet" data-target="desktop_theme" data-theme-id="3" data-theme-name="亮">
+    <script src="resources/79ef348eb9f79f287b6c835ff09169b855d710f2.js"></script>
+</head>
+
+<body class="crawler">
+<script src="resources/205da9bd7e50046f118af4e49e6a562905a2ca26.js"></script>
+<script src="resources/dd73fca2e692e339380e847ce439a9e2a083d9bb.js"></script>
+<header>
+    <a href="https://shuiyuan.sjtu.edu.cn/">
+        <img src="resources/f8a88a3a02eaa06e8d2c51ea944df2f7abdc374e.png" alt="水源社区"
+             id="site-logo" style="max-width: 150px;">
+    </a>
+</header>
+<div id="main-outlet" class="wrap">
+    <div id="topic-title">
+        <h1>
+            <a href="index.html">夜间校园网开始对B站、抖音、爱奇艺、英雄联盟等娱乐站点进行限制</a>
+        </h1>
+
+        <div class="topic-category" itemscope="" itemtype="http://schema.org/BreadcrumbList">
+                <span itemprop="itemListElement" itemscope="" itemtype="http://schema.org/ListItem">
+                  <a class="badge-wrapper bullet" itemprop="item">
+                    <span class="badge-category-bg" style="background-color: #FF9800"></span>
+                    <span class="badge-category clear-badge">
+                      <span class="category-name" itemprop="name">校园网络</span>
+                    </span>
+                  </a>
+                </span>
+        </div>
+
+        <div class="topic-category">
+            <div class="discourse-tags list-tags">
+                    <a class="discourse-tag" rel="tag">网络</a>
+            </div>
+        </div>
+    </div>
+
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Justyn Gulgowski</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-10-03 02:45:20.383 UTC" class="post-time">
+                    2022年10月03日 10:45
+                </time>
+                        <span itemprop="position">#407</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>想问一下，我把路由器的DNS改成<code>225.5.5.5</code>和<code>223.6.6.6</code>，Lizeth Erdman上<code>ipconfig /all</code>显示DNS是<code>fec0:0:0:ffff::1%1</code>, <code>fec0:0:0:ffff::2%1</code>, <code>fec0:0:0:ffff::3%1</code>。<br>
+想问一下这是啥情况 <img src="resources/sweat_smile_v=12.png" title=":sweat_smile:" class="Darian Ullrich" alt=":sweat_smile:" loading="lazy" width="20" height="20">，网上查了一下是ipv6？但我路由器确定是没用ipv6的。</p>
+            </div>
+
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Julianne Douglas</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-10-03 03:29:53.360 UTC" class="post-time">
+                    2022年10月03日 11:29
+                </time>
+                        <span itemprop="position">(回复 #407) #408</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>路由器没有ipv6，你Lizeth Erdman在局域网可能用了ipv6<br>
+这样连不上学校的ipv6，不会影响</p>
+            </div>
+
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Candice Corkery</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-10-04 06:02:00.502 UTC" class="post-time">
+                    2022年10月04日 14:02
+                </time>
+                        <span itemprop="position">#409</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>近期如果出现梯子失效的情况，可以试试把修改的DNS改回自动，亲测有效（我猜是国内运营商要献礼）</p>
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                        <img alt height="20" width="20" src="resources/policeman.png"/>
+                        <span style="padding-right: 5px">9</span>
+                </div>
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                    <span class="post-likes">2 个赞</span>
+                </div>
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Fausto Senger</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-10-17 17:11:15.299 UTC" class="post-time">
+                    2022年10月18日 01:11
+                </time>
+                        <span itemprop="position">#410</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>挂着 VPN 看 Canvas，结果b站挂了。折腾了半天才想起来这回事<img src="resources/rage_v=12.png" title=":rage:" class="Darian Ullrich" alt=":rage:" loading="lazy" width="20" height="20"></p>
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                    <span class="post-likes">1 个赞</span>
+                </div>
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Claudia Harvey</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-10-25 08:46:31.582 UTC" class="post-time">
+                    2022年10月25日 16:46
+                </time>
+                        <span itemprop="position">#411</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>我最近夜间又上不了B站等 网站了<br>
+已知信息：Lizeth Erdman和手机通过路由器接入有线网络，路由器跑shellclash，路由器管理界面和shellclash的ipv4dns都设置为223.5.5.5/8.8.8.8，但Lizeth Erdman、手机还是都无法打开B站，而且报错由之前的 connection timeout 变成了 connection reset<br>
+Lizeth Erdman/手机手动把v4的dns改掉然后连SJTU无线网还是这样<br>
+有无大佬看看为啥 <img src="resources/sob_v=12.png" title=":sob:" class="Darian Ullrich" alt=":sob:" loading="lazy" width="20" height="20"></p>
+            </div>
+
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Julianne Douglas</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-10-25 10:45:31.536 UTC" class="post-time">
+                    2022年10月25日 18:45
+                </time>
+                        <span itemprop="position">(回复 #411) #412</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>一定要记得改ipv6的dns</p>
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                    <span class="post-likes">2 个赞</span>
+                </div>
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Claudia Harvey</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-10-25 10:49:38.667 UTC" class="post-time">
+                    2022年10月25日 18:49
+                </time>
+                        <span itemprop="position">(回复 #412) #413</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>好的，我今晚再试试，谢谢！<br>
+（话说有哪家v6的dns推荐吗 阿里+google应该没啥问题吧</p>
+            </div>
+
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Julianne Douglas</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-10-25 11:01:25.702 UTC" class="post-time">
+                    2022年10月25日 19:01
+                </time>
+                        <span itemprop="position">(回复 #413) #414</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>可以的，主楼也有推荐</p>
+            </div>
+
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Marquise Hartmann</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-10-25 11:06:10.270 UTC" class="post-time">
+                    2022年10月25日 19:06
+                </time>
+                        <span itemprop="position">#415</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>P站呢 <img src="resources/pleading_face_v=12.png" title=":pleading_face:" class="Darian Ullrich" alt=":pleading_face:" loading="lazy" width="20" height="20"></p>
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                    <span class="post-likes">1 个赞</span>
+                </div>
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Delia Pfeffer</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-10-26 02:53:08.958 UTC" class="post-time">
+                    2022年10月26日 10:53
+                </time>
+                        <span itemprop="position">#416</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>每天到12点lol就进不去了，主界面一直打圈</p>
+            </div>
+
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Mathew Nienow</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-10-26 02:59:31.644 UTC" class="post-time">
+                    2022年10月26日 10:59
+                </time>
+                        <span itemprop="position">(回复 #416) #417</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>前天第一次玩lol玩到0点，在下棋，感觉要吃鸡的局直接给我强制关闭了，气死了<img src="resources/rage_v=12.png" title=":rage:" class="Darian Ullrich" alt=":rage:" loading="lazy" width="20" height="20">我还以为我Lizeth Erdman出问题了，一直没连上去</p>
+            </div>
+
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Cristobal Effertz</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-10-26 14:11:06.587 UTC" class="post-time">
+                    2022年10月26日 22:11
+                </time>
+                        <span itemprop="position">(回复 #417) #418</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>哈哈，我那天也遇到了，一把天胡的局，给我退出来了。我马上开手机热点连上去，还好质量够顶，没有断连胜，最后胜利吃鸡</p>
+            </div>
+
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Pauline Cronin</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-10-28 17:48:46.512 UTC" class="post-time">
+                    2022年10月29日 01:48
+                </time>
+                        <span itemprop="position">#420</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>我刚试了也打不开，建议不用b站或者使用流量</p>
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                    <span class="post-likes">3 个赞</span>
+                </div>
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Herminia Christiansen</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-10-28 17:49:58.652 UTC" class="post-time">
+                    2022年10月29日 01:49
+                </time>
+                        <span itemprop="position">#422</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>改dns就行了，水源搜一下应该有教程的</p>
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                    <span class="post-likes">3 个赞</span>
+                </div>
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Tyler Dietrich</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-10-28 17:53:10.366 UTC" class="post-time">
+                    2022年10月29日 01:53
+                </time>
+                        <span itemprop="position">#423</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <aside class="quote quote-modified" data-post="1" data-topic="68942">
+  <div class="title">
+    <div class="quote-controls"></div>
+    
+    <a href="https://shuiyuan.sjtu.edu.cn/t/topic/68942">夜间校园网开始对B站、抖音、爱奇艺、英雄联盟等娱乐站点进行限制</a> <a class="badge-wrapper  bullet" href="/c/23-category/101-category/101"><span class="badge-category-parent-bg" style="background-color: #FF6D00;"></span><span class="badge-category-bg" style="background-color: #FF9800;"></span><span style="" data-drop-close="true" class="badge-category clear-badge" title="讨论和交流校园网络和网络信息中心提供的服务（如 #交我办 、#交大邮箱 、交大 #VPN）问题。">校园网络</span></a>
+  </div>
+  <blockquote>
+    <a name="h-1" class="anchor" href="#h-1"></a>具体情况
+2022年5月25日0点起，使用校园网络时突然打不开B站了。经测试早晨8点准时恢复（<a href="https://shuiyuan.sjtu.edu.cn/t/topic/68942/118">帖子 #118</a>） 
+已知受影响娱乐网站列表：（欢迎补充） 
+
+
+<a href="https://www.bilibili.com/" rel="noopener nofollow ugc">哔哩哔哩</a>、<a href="http://v.qq.com/" rel="noopener nofollow ugc">腾讯视频</a>、<a href="http://www.iqiyi.com/" rel="noopener nofollow ugc">爱奇艺</a>、<a href="https://youku.com/" rel="noopener nofollow ugc">优酷</a>、<a href="http://www.wasu.cn/" rel="noopener nofollow ugc">华数TV</a>、<a href="http://www.douyin.com/" rel="noopener nofollow ugc">抖音</a>、<a href="http://www.kuaishou.com/" rel="noopener nofollow ugc">快手</a>
+
+
+<a href="http://store.steampowered.com" rel="noopener nofollow ugc">Steam商店</a>和聊天、<a href="https://www.origin.com/" rel="noopener nofollow ugc">Origin</a>、<a href="http://www.battlenet.com.cn" rel="noopener nofollow ugc">战网</a>、<a href="https://lol.qq.com/" rel="noopener nofollow ugc">英雄联盟</a>、<a href="http://www.bh3.com/" rel="noopener nofollow ugc">崩坏3</a>
+
+
+6月1日新增屏蔽站点：（<a href="https://shuiyuan.sjtu.edu.cn/t/topic/68942/327">帖子 #327</a>） 
+
+
+<a href="https://www.mihoyo.com/" rel="noopener nofollow ugc">米哈游</a>、<a href="https://www.4399.com/" rel="noopener nofollow ugc">4399小游戏</a>、<a href="https://www.37.com/" rel="noopener nofollow ugc">37网游</a>
+
+
+<a href="https://www.mgtv.com/" rel="noopener nofollow ugc">芒果TV</a>、<a href="https://www.ixigua.com/" rel="noopener nofollow ugc">西瓜视频</a>
+
+
+6月9…
+  </blockquote>
+</aside>
+
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                    <span class="post-likes">5 个赞</span>
+                </div>
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Abe Beier</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-10-28 17:58:48.254 UTC" class="post-time">
+                    2022年10月29日 01:58
+                </time>
+                        <span itemprop="position">#425</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>不要熬太晚噢～上个学期那段时间我用校园网挂哄睡直播，Lizeth Erdman游戏挂机刷材料。被导员警告了<img src="resources/joy_cat_v=12.png" title=":joy_cat:" class="Darian Ullrich" alt=":joy_cat:" loading="lazy" width="20" height="20">荣登学校反馈的熬夜名单</p>
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                        <img alt height="20" width="20" src="resources/exploding_head.png"/>
+                        <span style="padding-right: 5px">6</span>
+                </div>
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                    <span class="post-likes">4 个赞</span>
+                </div>
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Glenda Hyatt</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-10-28 18:01:13.426 UTC" class="post-time">
+                    2022年10月29日 02:01
+                </time>
+                        <span itemprop="position">(回复 #425) #426</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p><img src="resources/exploding_head_v=12.png" title=":exploding_head:" class="Darian Ullrich" alt=":exploding_head:" loading="lazy" width="20" height="20">在寝室里不是最多查到寝室的ip的吗，辅导员怎么查到个人头上的 <img src="resources/exploding_head_v=12.png" title=":exploding_head:" class="Darian Ullrich" alt=":exploding_head:" loading="lazy" width="20" height="20">还有居然真的会管啊</p>
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                    <span class="post-likes">1 个赞</span>
+                </div>
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Abe Beier</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-10-28 18:04:12.329 UTC" class="post-time">
+                    2022年10月29日 02:04
+                </time>
+                        <span itemprop="position">(回复 #426) #427</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>学校查的反馈给导员的，导员提醒我的时候校园网就开始对娱乐网站开始限制了。个人认为是因为那时候那件不好的事情<img src="resources/smiling_face_with_tear_v=12.png" title=":smiling_face_with_tear:" class="Darian Ullrich" alt=":smiling_face_with_tear:" loading="lazy" width="20" height="20">，不然学校一般不会查的吧</p>
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                    <span class="post-likes">3 个赞</span>
+                </div>
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Jaclyn Ritchie</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-10-28 18:07:42.344 UTC" class="post-time">
+                    2022年10月29日 02:07
+                </time>
+                        <span itemprop="position">(回复 #426) #428</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>所以现在开始推广交大wifi，不推荐用有线网了</p>
+            </div>
+
+                <div itemprop="interactionStatistic" itemscope="" itemtype="http://schema.org/InteractionCounter">
+                    <meta itemprop="interactionType" content="http://schema.org/LikeAction">
+                    <meta itemprop="userInteractionCount" content="1">
+                    <span class="post-likes">2 个赞</span>
+                </div>
+
+        </div>
+        <div itemscope="" itemtype="http://schema.org/DiscussionForumPosting" class="topic-body crawler-post">
+            <div class="crawler-post-meta">
+                <span class="creator" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
+                <a itemprop="url">
+                    <span itemprop="name">Rhea Schumm</span>
+                </a>
+          </span>
+                <span class="crawler-post-infos">
+                <time itemprop="datePublished" datetime="2022-10-28 19:21:56.391 UTC" class="post-time">
+                    2022年10月29日 03:21
+                </time>
+                        <span itemprop="position">#429</span>
+            </span>
+            </div>
+            <div class="post" itemprop="articleBody">
+                <p>建议转学喵</p>
+            </div>
+
+
+        </div>
+    <div role="navigation" itemscope="" itemtype="http://schema.org/SiteNavigationElement"
+         class="topic-body crawler-post">
+            <span itemprop="name"><a rel="prev" itemprop="url" href="18.html">← 上一页</a></span>
+            <span itemprop="name"><b><a rel="next" itemprop="url" href="20.html">下一页 →</a></b></span>
+    </div>
+</div>
+<footer class="container wrap">
+    <p class="powered-by-link">由 <a href="https://www.discourse.org/">Discourse</a> 提供技术支持</p>
+</footer>
+<div style="text-align: center;">©2023 上海交通大学</div>
+<br>
+</body>
+</html>
